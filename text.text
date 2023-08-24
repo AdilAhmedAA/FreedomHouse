@@ -1,0 +1,161 @@
+/*Service-crisis-page Page Stylings Starts*/
+
+.crisis-services .inner .head {
+    margin-bottom: 75px;
+}
+.crisis-services .inner .head h2{
+    letter-spacing: 6px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+.crisis-services .inner .head p{
+    letter-spacing: 1px;
+    max-width: 1244px;
+    width: 100%;
+    margin: 0 auto;
+}
+.crisis-services .inner .service-wrapper{
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+}
+.crisis-services .inner .service-wrapper .service-details{
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 73px;
+}
+.crisis-services .inner .service-wrapper .service-details h3{
+    color: #343832;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.crisis-services .inner .service-wrapper .service-details p{
+    color: #343832;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1600px){
+    .crisis-services .inner .head h2{
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .crisis-services .inner .head p{
+        max-width: 1075px;
+        font-size: 20px;
+    }
+    .crisis-services .inner .head{
+        margin-bottom: 50px;
+    }
+    .crisis-services .inner .service-wrapper .service-details {
+        margin: 25px auto;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3{
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .crisis-services .inner .service-wrapper .service-details p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .crisis-services .inner .head h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .crisis-services .inner .head p {
+        max-width: 850px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .crisis-services .inner .head {
+        margin-bottom: 40px;
+    }
+    .crisis-services .inner .service-wrapper .service-details {
+        margin: 20px auto;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .crisis-services .inner .service-wrapper .service-details p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .crisis-services .inner .head h2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .crisis-services .inner .head p {
+        max-width: 650px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .crisis-services .inner .head {
+        margin-bottom: 30px;
+    }
+    .crisis-services .inner .service-wrapper .service-details {
+        margin: 15px auto;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .crisis-services .inner .head h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .crisis-services .inner .head p {
+        max-width: 530px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .crisis-services .inner .head {
+        margin-bottom: 25px;
+    }
+    .crisis-services .inner .service-wrapper .service-details {
+        margin: 10px auto;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .crisis-services .inner .service-wrapper .service-details p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .crisis-services .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .crisis-services .inner .head p {
+        max-width: 500px;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+/*Service-crisis-page Page Stylings Ends*/

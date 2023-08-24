@@ -1,0 +1,4928 @@
+/*page-hero Styling*/
+/* a:focus{
+    outline: 2px solid blue;
+}
+*:focus{
+    outline: 2px solid blue;
+} */
+.page-hero .inner .page-hero-details{
+    max-width: 1350px;
+    width: 100%;
+    margin-bottom: 300px;
+}
+.page-hero .inner .page-hero-details p{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+}
+.page-hero .inner .page-hero-heading{
+    margin: 145px 0 70px 0;
+}
+.page-hero .inner .page-hero-heading h1 a{
+    position: relative;
+}
+.page-hero .inner .page-hero-heading h1 a::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+    left: 0;
+    bottom: 6px;
+}
+/*page-hero Styling*/
+
+/*Pages Common Media Query Styling Starts*/
+@media only screen and (max-width: 1600px){
+    .page-hero.hero .inner .page-hero-details p{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .page-hero.hero .inner .page-hero-details {
+        max-width: 1180px;
+        margin-bottom: 100px;
+    }
+    .page-hero .inner .page-hero-heading {
+        margin: 130px 0 80px 0;
+    }
+    
+}
+@media only screen and (max-width: 1199px){
+    .page-hero.hero .inner .page-hero-details {
+        max-width: 800px;
+    }
+    .page-hero.hero .inner .page-hero-details p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .page-hero .inner .page-hero-heading{
+        margin: 100px 0 100px 0;
+    }
+    
+}
+@media only screen and (max-width: 991px){
+        .page-hero.hero .inner .page-hero-details {
+        max-width: 700px;
+        margin-bottom: 80px;
+    }
+    .page-hero.hero .inner .page-hero-details p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .page-hero .inner .page-hero-heading {
+        margin: 70px 0 70px 0;
+    }
+   
+}
+@media only screen and (max-width: 767px){
+    .page-hero .inner .page-hero-heading {
+        margin: 50px 0 50px 0;
+    }
+    .page-hero.hero .inner .page-hero-details p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .page-hero.hero .inner .page-hero-details {
+        max-width: 530px;
+        margin-bottom: 50px;
+    }
+    .page-hero .inner .page-hero-heading h1 a::after{
+        height: 2px;
+        bottom: 2px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .page-hero.hero .inner .page-hero-details {
+        max-width: 330px;
+        margin-bottom: 45px;
+    }
+}
+/*Pages Common Media Query Styling Ends*/
+
+
+
+
+
+
+
+
+
+
+
+/*About Us Page Stylings Starts*/
+
+/*about our Story Starts*/
+
+.ourstory .inner .ourstory-desc {
+    max-width: 1490px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+.ourstory .inner .ourstory-desc.head h2{
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+.ourstory .inner .ourstory-desc.head p{
+    letter-spacing: 1px;
+}
+.ourstory .about-story .ourstory-image{
+    border: none;
+    margin: 48px 0 0 0;
+    max-width: 100%;
+}
+.ourstory .about-story .ourstory-image img{
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.ourstory .about-story .about-ourstory-details{
+    max-width: 100%;
+    margin: 0;
+}
+.ourstory .about-story .about-ourstory-details h2::after{
+    content: '';
+    width: 60px;
+    height: 12px;
+    background: #F4461F;
+    position: absolute;
+    bottom: -33px;
+    left: 0;
+}
+.ourstory .about-story.right-t-left .about-ourstory-details h2::after{
+    right: 0;
+    left: auto;
+}
+.ourstory .about-story .about-ourstory-details h2{
+    font-size: 48px;
+    letter-spacing: 6px;
+    margin-bottom: 67px;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.ourstory .about-story.left-t-right{
+    margin-top: 131px;
+}
+.ourstory .about-story.right-t-left{
+    margin-top: 73px;
+    text-align: end;
+}
+.ourstory .about-story .about-ourstory-details p{
+    font-size: 20px;
+    line-height: 41.6px;
+    color: #343832;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+/*about our Story Ends*/
+
+/* our-team styling starts */
+
+.our-team .inner .head h3{
+    color: #282828;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+.our-team .inner .head h2{
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.our-team .inner .head p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 41.6px;
+    margin-bottom: 66px;
+}
+.our-team .ourteam-cards{
+    max-width: 1336px;
+    width: 100%;
+    margin: 0 auto;
+}
+.ourteam-cards .card {
+    max-width: 310px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #000;
+    background: #FCFEFF;
+}
+
+.ourteam-cards .card .img-container {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px 10px 0;
+}
+
+.ourteam-cards .card .img-container img {
+    width: 100%;
+    max-height: 288px;
+    object-fit: cover;
+}
+.ourteam-cards .card .card-content{
+    text-align: center;
+    color: #282828;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0 18px;
+}
+.ourteam-cards .card .card-content h3 {
+    color: #282828;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.ourteam-cards .card .card-content h4{
+    color: #3E3E59;
+    font-size: 14px;
+    margin: 5px 0 8px 0;
+}
+.ourteam-cards .card .card-content p{
+    color: #5F6980;
+    font-size: 14px;
+    max-width: 260px;
+    width: 100%;
+    margin: auto;
+}
+
+.ourteam-cards .card ul {
+    margin-top: 15px;
+    margin-bottom: 33px;
+}
+.ourteam-cards .card ul li:not(:first-child){
+    margin-left: 15px;
+}
+
+.our-team .ourteam-cards .card{
+    margin: 0;
+    height: 100%;
+} 
+.our-team .ourteam-cards>.row .card-wr{
+    margin-bottom: 88px;
+}
+.our-team .ourteam-cards>.row .card{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* our-team styling Ends*/
+/*Company Information Styling Starts*/
+.company-info {
+    padding: 50px 0 43px 0;
+    color: #282828;
+}
+.company-info .inner .heading {
+    margin-bottom: 15px;
+}
+.company-info .inner .heading h2{
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.company-info .company-info-wrapper{
+    padding: 50px 30px;
+    background-color: rgba(16, 70, 39, 0.1);
+    max-width: 50%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.company-info .company-info-wrapper .com-details h2{
+    margin-bottom: 10px;
+}
+.company-info .company-info-wrapper .com-details .detail::after{
+    content: '';
+    height: 2px;
+    width: 50%;
+    left: 25%;
+    bottom: 2%;
+    background-color: #104627;
+    position: absolute;
+}
+.company-info .company-info-wrapper .com-details .detail{
+    padding-bottom: 15px;
+    margin-top: 40px;
+    position: relative;
+}
+.company-info .company-info-wrapper .com-details .detail a{
+    text-decoration: none;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: #104627;
+}
+.company-info .company-info-wrapper .com-details .detail p{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.company-info .company-info-wrapper .single:first-child{
+    border-right: 5px solid #dee2e6;
+}
+/*Company Information Styling Ends*/
+@media only screen and (max-width: 1600px){
+    .ourstory .inner .ourstory-desc.head h2{
+        font-size: 44px;
+    }
+    .ourstory .inner .ourstory-desc.head p{
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .ourstory .inner .about-story.left-t-right{
+        margin-top: 50px;
+    }
+    .ourstory .inner .about-story .about-ourstory-details h2{
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 50px;
+    }
+    .ourstory .inner .about-story .about-ourstory-details p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .ourstory .about-story.right-t-left .about-ourstory-details h2::after{
+        bottom: -25px;
+        height: 10px;
+    }
+    .our-team .inner .head{
+        margin-bottom: 50px;
+    }
+    .our-team .inner .head h2{
+        font-size: 44px;
+    }
+    .our-team .ourteam-cards {
+        max-width: 1150px;
+    }
+
+    .ourteam-cards .card .card-content h4{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .ourteam-cards .card .card-content{
+        padding: 0 10px;
+    }
+    .ourteam-cards .card ul{
+        margin-bottom: 16px;
+    }
+    .our-team .ourteam-cards .card{
+        max-width: 275px;
+    }
+    .our-team .ourteam-cards>.row .card-wr{
+        margin-bottom: 50px;
+    }
+    .company-info .inner .heading h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .company-info .company-info-wrapper .com-details h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 0;
+    }
+    .company-info .company-info-wrapper .com-details .detail p {
+        font-size: 18px;
+        line-height: 24px;
+    }  
+}
+@media only screen and (max-width: 1199px){
+    
+    .ourstory .inner .ourstory-desc.head h2 {
+        font-size: 42px;
+    }
+    .ourstory .inner .about-story .about-ourstory-details h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .our-team .inner .head h2 {
+        font-size: 42px;
+    }
+    .our-team .inner .head p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .our-team .ourteam-cards {
+        max-width: 850px;
+    }
+    .our-team .ourteam-cards .card {
+        max-width: 250px;
+    }
+    .our-team .ourteam-cards .card .card-content h4 {
+        font-size: 12px;
+        margin: 0px 0 3px 0;
+    }
+    .our-team .ourteam-cards .card ul {
+        margin: 10px 0px;
+    }
+    .our-team .ourteam-cards .card .img-container{
+        margin-bottom: 10px;
+        width: 95%;
+        margin: auto;
+    }
+    .our-team .inner .head{
+        margin-bottom: 45px;
+    }
+    .our-team .ourteam-cards>.row .card-wr{
+        margin-bottom: 40px;
+    }
+    .company-info .company-info-wrapper .com-details h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .company-info .company-info-wrapper .com-details .detail a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .company-info .company-info-wrapper .com-details .detail p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .company-info .inner .heading h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .company-info .inner .heading {
+        margin-bottom: 10px;
+    }
+    .company-info .company-info-wrapper .com-details .detail {
+        margin-top: 35px;
+    }
+    .company-info .company-info-wrapper {
+        padding: 25px 30px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .ourstory.about-our-story{
+        padding: 50px 0;
+    }
+    .ourstory .inner .ourstory-desc.head h2 {
+        font-size: 38px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+    .ourstory .inner .ourstory-desc.head p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .ourstory .about-story.right-t-left{
+        margin-top: 50px;
+    }
+    .ourstory .about-story .ourstory-image{
+        margin: 0;
+    }
+    .ourstory .about-story.right-t-left{
+        text-align: start;
+    }
+    .ourstory .inner .about-story .about-ourstory-details h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 44px;
+    }
+    .ourstory .inner .about-story .about-ourstory-details p{
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    .ourstory .about-story.right-t-left .about-ourstory-details h2::after{
+        right: auto;
+        left: 0;
+    }
+    .ourstory .about-story .about-ourstory-details h2::after{
+        bottom: -24px;
+    }
+    .ourstory .about-story .ourstory-image {
+        margin-bottom: 30px;
+    }
+    
+    .our-team .inner .head {
+        margin-bottom: 30px;
+    }
+    .our-team .inner .head h2 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .our-team .inner .head p {
+        font-size: 17px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+    .our-team .ourteam-cards {
+        max-width: 730px;
+    }
+    .our-team .ourteam-cards .card {
+        max-width: 225px;
+    }
+    .our-team .ourteam-cards .card .img-container {
+        width: 85%;
+    }
+    .our-team .ourteam-cards .card .card-content h3{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .our-team .ourteam-cards .card .card-content h4{
+        margin: 0;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .our-team .ourteam-cards .card .card-content p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .our-team .ourteam-cards .card ul {
+        margin: 8px 0px;
+    }
+    .our-team .ourteam-cards .card ul li a img{
+        max-width: 30px;
+        width: 100%;
+    }
+    .company-info .company-info-wrapper .single:first-child{
+        border-right: none;
+    }
+    .company-info .company-info-wrapper .com-details .detail {
+        margin-top: 25px;
+        padding-bottom: 10px;
+    }
+    .company-info .company-info-wrapper .com-details h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .company-info .inner .heading h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .company-info .company-info-wrapper {
+        max-width: 55%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .ourstory .inner .ourstory-desc.head h2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+    .ourstory .inner .ourstory-desc.head p{
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .ourstory .inner .about-story .about-ourstory-details h2 {
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4px;
+        margin-bottom: 34px;
+    }
+    .ourstory .about-story.right-t-left .about-ourstory-details h2::after,.ourstory .about-story .about-ourstory-details h2::after {
+        bottom: -18px;
+        height: 7px;
+    }
+    .our-team .inner .head h3{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .our-team .inner .head h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .our-team .inner .head p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .our-team .ourteam-cards {
+        max-width: 530px;
+    }
+    .ourteam-cards .card .card-content {
+        padding: 0 5px;
+    }
+    .our-team .ourteam-cards .card .card-content h3 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .our-team .ourteam-cards .card .card-content h4{
+        margin: 3px 0;
+    }
+    .company-info .company-info-wrapper .com-details .detail a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .company-info .company-info-wrapper .com-details .detail p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .company-info .inner .heading h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .company-info .company-info-wrapper {
+        max-width: 100%;
+    }
+    .company-info .company-info-wrapper {
+        padding: 25px 5px;
+    }
+}
+@media only screen and (max-width: 575px){
+    
+    .ourstory .inner .ourstory-desc.head h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .ourstory .inner .ourstory-desc.head p {
+        line-height: 1.8;
+    }
+    .ourstory .inner .about-story.left-t-right{
+        margin-top: 0;
+    }
+    .ourstory .inner .ourstory-desc.head {
+        margin-bottom: 50px;
+    }
+    .ourstory .about-story .ourstory-image{
+        margin-bottom: 20px;
+    }
+    .ourstory .inner .about-story .about-ourstory-details h2 {
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        margin-bottom: 30px;
+    }
+    .ourstory .about-story.right-t-left .about-ourstory-details h2::after, .ourstory .about-story .about-ourstory-details h2::after{
+        bottom: -15px;
+        height: 5px;
+    }
+    .ourstory .about-story.right-t-left {
+        margin-top: 45px;
+    }
+    .our-team .ourteam-cards>.row .card-wr {
+        margin-bottom: 30px;
+    }
+    .our-team .inner .head h3 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .our-team .inner .head h2 {
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4px;
+    }
+    .our-team .inner .head p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .partners .head h2, .company-info .company-info-wrapper .com-details h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .company-info .inner .heading h2 {
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 5px;
+    }
+    .company-info .company-info-wrapper .com-details .detail {
+        margin-top: 15px;
+    }
+}
+/*About Us Page Stylings Ends*/
+
+
+/*MakeDonation Page Stylings Starts*/
+
+.donation-ways .inner .head {
+    margin-bottom: 75px;
+}
+.donation-ways .inner .head h2{
+    letter-spacing: 6px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+.donation-ways .inner .head p{
+    letter-spacing: 1px;
+    max-width: 1244px;
+    width: 100%;
+    margin: 0 auto;
+}
+.donation-ways .inner .way-of-donation{
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+}
+.donation-ways .inner .way-of-donation .way-details{
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 73px;
+}
+.donation-ways .inner .way-of-donation .way-details h3{
+    color: #343832;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.donation-ways .inner .way-of-donation .way-details p{
+    color: #343832;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+}
+
+.wish-list{
+    padding: 64px 0 0 0;
+}
+.wish-list .inner .head {
+    margin-bottom: 75px;
+}
+.wish-list .inner .head h2{
+    letter-spacing: 6px;
+    margin-bottom: 47px;
+    
+}
+.wish-list .inner .head p{
+    letter-spacing: 1px;
+    max-width: 1336px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wish-list .inner .list-wrap-cust{
+    max-width: 95%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+.wish-list .inner .list-wrap-cust .wishes{
+    max-width: 95%;
+    margin: 48px auto;
+}
+.wish-list .inner .list-wrap-cust .wishes ul li p{
+    color: #343832;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 53.8px; /* 224.167% */
+    letter-spacing: 1px;
+}
+.wish-list .inner .list-wrap-cust .wishes ul {
+    list-style: none;
+    padding: 0;
+}
+.wish-list .inner .list-wrap-cust .wishes ul li{
+    position: relative;
+    padding-left: 32px;
+}
+.wish-list .inner .list-wrap-cust .wishes ul li::before{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    bottom: 45%;
+}
+.wish-list .inner .wishes-desc{
+    max-width: 95%;
+    width: 100%;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wish-list .inner .wishe-thank-note{
+    max-width: 1220px;
+    width: 100%;
+    margin: 85px auto 100px auto;
+}
+.wish-list .inner .wishe-thank-note p{
+    color: #343832;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54.8px;
+    letter-spacing: 1px;
+}
+.wish-list .inner .wishes-desc p{
+    color: #343832;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37.8px; /* 189% */
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 1600px){
+    .fluid-sec {
+        padding: 100px 0px !important;
+    }
+    .donation-ways .inner .head h2{
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .donation-ways .inner .head p{
+        max-width: 1075px;
+        font-size: 20px;
+    }
+    .donation-ways .inner .head{
+        margin-bottom: 50px;
+    }
+    .donation-ways .inner .way-of-donation .way-details {
+        margin: 25px auto;
+    }
+    .donation-ways .inner .way-of-donation .way-details h3{
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .donation-ways .inner .way-of-donation .way-details p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .wish-list{
+        padding-top: 50px;
+    }
+    .wish-list .inner .head h2{
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+    .wish-list .inner .head p{
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 1120px;
+    }
+    .wish-list .inner .head{
+        margin-bottom: 50px;
+    }
+    .wish-list .inner .list-wrap-cust .wishes {
+        margin: 25px auto;
+    }
+    .wish-list .inner .list-wrap-cust .wishes ul li p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .wish-list .inner .wishes-desc{
+        margin: 48px auto 0 auto;
+    }
+    .wish-list .inner .wishes-desc p {
+        font-size: 18px;
+        line-height: 35.8px;
+    }
+    .wish-list .inner .wishe-thank-note {
+        max-width: 1020px;
+        margin: 50px auto 70px auto;
+    }
+    .wish-list .inner .wishe-thank-note p {
+        font-size: 28px;
+        line-height: 50.8px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .donation-ways .inner .head h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .donation-ways .inner .head p {
+        max-width: 850px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .donation-ways .inner .head {
+        margin-bottom: 40px;
+    }
+    .donation-ways .inner .way-of-donation .way-details {
+        margin: 20px auto;
+    }
+    .donation-ways .inner .way-of-donation .way-details h3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .donation-ways .inner .way-of-donation .way-details p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wish-list {
+        padding-top: 35px;
+    }
+    .wish-list .inner .head h2 {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+    .wish-list .inner .head p{
+        max-width: 850px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .wish-list .inner .head {
+        margin-bottom: 40px;
+    }
+    .wish-list .inner .list-wrap-cust .wishes {
+        margin: 20px auto;
+    }
+    .wish-list .inner .list-wrap-cust .wishes ul li p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wish-list .inner .wishes-desc{
+        margin: 30px auto 0 auto;
+    }
+    .wish-list .inner .wishes-desc p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wish-list .inner .wishe-thank-note{
+        max-width: 800px;
+        margin: 30px auto 50px auto;
+    }
+    .wish-list .inner .wishe-thank-note p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .donation-ways .inner .head h2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .donation-ways .inner .head p {
+        max-width: 650px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .donation-ways .inner .head {
+        margin-bottom: 30px;
+    }
+    .donation-ways .inner .way-of-donation .way-details {
+        margin: 15px auto;
+    }
+    .donation-ways .inner .way-of-donation .way-details h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .wish-list .inner .head {
+        margin-bottom: 30px;
+    }
+    .wish-list .inner .head h2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .wish-list .inner .head p{
+        max-width: 650px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .wish-list .inner .list-wrap-cust .wishes {
+        margin: 15px auto;
+    }
+    .wish-list .inner .list-wrap-cust .wishes ul li{
+        padding-left: 20px;
+    }
+    .wish-list .inner .list-wrap-cust .wishes ul li::before{
+        width: 5px;
+        height: 5px;
+    }
+    .wish-list .inner .wishe-thank-note{
+        max-width: 650px;
+    }
+    .wish-list .inner .wishe-thank-note p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .donation-ways .inner .head h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .donation-ways .inner .head p {
+        max-width: 530px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .donation-ways .inner .head {
+        margin-bottom: 25px;
+    }
+    .donation-ways .inner .way-of-donation .way-details {
+        margin: 10px auto;
+    }
+    .donation-ways .inner .way-of-donation .way-details h3 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .donation-ways .inner .way-of-donation .way-details p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .wish-list .inner .head {
+        margin-bottom: 25px;
+    }
+    .wish-list .inner .head h2 {
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 5px;
+    }
+    .wish-list .inner .head p {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .wish-list .inner .list-wrap-cust .wishes {
+        margin: 10px auto;
+    }
+    .wish-list .inner .list-wrap-cust .wishes ul li p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .wish-list .inner .list-wrap-cust .wishes ul li {
+        padding-left: 15px;
+    }
+    .wish-list .inner .list-wrap-cust .wishes ul li::before{
+        bottom: 35%;
+    }
+    .wish-list .inner .wishes-desc {
+        margin-top: 25px;
+    }
+    .wish-list .inner .wishes-desc p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .wish-list .inner .wishe-thank-note {
+        max-width: 540px;
+    }
+    .wish-list .inner .wishe-thank-note p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .donation-ways .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .donation-ways .inner .head p {
+        max-width: 500px;
+    }
+    .donation-ways .inner .way-of-donation .way-details h3 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .wish-list {
+        padding-top: 30px;
+    }
+    .wish-list .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .wish-list .inner .list-wrap-cust .wishes ul li::before {
+        top: 20%;
+    }
+    .wish-list .inner .list-wrap-cust .wishes ul li{
+        margin-bottom: 5px;
+    }
+    .wish-list .inner .wishe-thank-note {
+        max-width: 500px;
+        margin-bottom: 35px;
+    }
+    .wish-list .inner .wishe-thank-note p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+/*MakeDonation Page Stylings Ends*/
+
+
+
+
+
+
+
+
+/*Fluid Two Button Section starts*/
+.fluid-sec{
+    padding: 140px 0;
+}
+
+.fluid-sec .fluid-sec-wrapper .fluid-sec-img{
+    display: inline-block;
+    border: 5px solid #104627;
+    width: 100%;
+    max-width: 53.282%;
+    margin-left: -1%;
+    margin-right: 5.886%;
+    height: 100%;
+    padding: 0;
+
+}
+.fluid-sec .fluid-sec-wrapper .fluid-sec-img img{
+    width: 100%;
+    left: -27px;
+    top: 26px;
+    position: relative;
+}
+
+.fluid-sec .fluid-sec-wrapper .fluid-sec-details{
+    max-width: 38.80%;
+    width: 100%;
+    padding: 0;
+    margin-top: 70px;
+}
+.fluid-sec .fluid-sec-wrapper .fluid-sec-details h2{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 10px;
+    color: #000;
+}
+.fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust {
+    display: flex;
+    align-items: center;
+}
+.fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-F{
+    padding: 5px 65px 5px 66px;
+    min-height: 69px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.091px;
+}
+.fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-Snd{
+    padding: 5px 37px 5px 37px;
+    min-height: 69px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.091px;
+    margin-left: 35px;
+}
+.fluid-sec .fluid-sec-wrapper .fluid-sec-details p{
+    color: #343832;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+    max-width: 694px;
+    margin: 40px 0;
+}
+.fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-vol{
+    padding: 21px 81px 22px 81px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.091px;
+}
+.fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-apn{
+    padding: 21px 100px 22px 101px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.091px;
+    margin-left: 25px;
+}
+@media only screen and (min-width: 1601px){
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-img{
+        margin-right: 4%;
+    }
+    
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details{
+        max-width: 43%;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details p{
+        max-width: 675px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details h2 {
+        font-size: 58px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-F {
+        padding: 5px 50px 5px 50px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-Snd {
+        padding: 5px 34px 5px 34px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .fluid-sec {
+        padding: 100px 0px !important;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-img{
+        margin-right: 4%;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-img img{
+        left:-15px;
+        top:20px
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details{
+        max-width: 43%;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details p{
+        max-width: 675px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details{
+        margin-top: 50px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details h2 {
+        line-height: 1.3;
+        font-size: 48px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details p{
+        font-size: 18px;
+        line-height: 36px;
+        margin: 30px 0;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-F {
+        padding: 5px 5px 5px 5px;
+        min-width: 200px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25.091px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-Snd {
+        padding: 5px 5px 5px 5px;
+        margin-left: 50px;
+        min-width: 330px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-vol{
+        padding: 20px 35px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-apn{
+        padding: 20px 54.5px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details {
+        max-width: 45%;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-img {
+        margin-right: 3%;
+        max-width: 52.282%;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details h2 {
+        font-size: 42px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details {
+        margin-top: 30px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details p {
+        font-size: 16px;
+        line-height: 34px;
+        margin: 25px 0;
+        padding: 0 20px 0 0
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-F{
+        min-height: 60px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-Snd{
+        min-height: 60px;
+        margin-left: 10px;
+        min-width: 320px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-img img {
+        left: -10px;
+    }
+    
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-vol{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-apn{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-F{
+        min-width: 140px;
+        min-height: 50px;
+        font-size: 14px;
+        line-height: 20px;
+    }   
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-Snd{
+        min-height: 50px;
+        min-width: 275px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details p {
+        font-size: 15px;
+        line-height: 30px;
+        margin: 20px 0;
+        padding: 0 10px 0 0;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details {
+        margin-top: 0;
+    }
+    .fluid-sec {
+        padding: 70px 0px !important;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-vol{
+        padding: 15px 29px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-apn{
+        padding: 15px 42.85px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 991px){
+    
+    .fluid-sec {
+        padding: 50px 0px !important;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-img{
+        max-width: 95%;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details{
+        max-width: 95%;
+        margin: 30px auto 0 auto;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details p {
+        line-height: 26px;
+        margin: 15px 0;
+        padding: 0;
+        max-width: 100%;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-F{
+        min-height: 45px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-Snd{
+        min-height: 45px;    
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details p{
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px 0 15px 0;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details{
+        text-align: center;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust{
+        justify-content: center;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-F {
+        min-height: 40px;
+        font-weight: 400;
+        padding: 5px 15px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-Snd {
+        min-height: 40px;
+        font-weight: 400;
+        padding: 5px 15px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-vol {
+        padding: 12px 20px;
+        min-height: 5px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-apn {
+        padding: 12px 33.85px;
+        min-height: 5px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust{
+        flex-direction: column-reverse;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-img{
+        margin-left: -2%;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-img img{
+        top: 10px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-img img{
+        margin-top: 25px;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details h2 {
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 7px;
+    }   
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-Snd{
+        margin-left: 0;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-fluid-F{
+        margin-top: 10px;
+    }
+    .fluid-sec {
+        padding: 45px 0px !important;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-apn{
+        margin-left: 0;
+        font-weight: 400;
+    }
+    .fluid-sec .fluid-sec-wrapper .fluid-sec-details .btn-wrap-cust .btn-career-vol{
+        margin-top: 10px;
+        font-weight: 400;
+    }
+}
+/*Fluid Two Button Section Ends*/
+
+/*Careers page styling starts*/
+.featured-jobs .feature-jobs-carousel {
+    max-width: 1060px;
+    margin: auto;
+}
+.featured-jobs .feature-jobs-carousel .jobs-item{
+    padding: 20px 15px;
+    border: 2px solid #104627;
+    margin: 0 15px;
+}
+.featured-jobs .feature-jobs-carousel .jobs-item .card-content h3{
+    color: #282828;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    min-height: 60px;
+}
+.featured-jobs .feature-jobs-carousel .jobs-item .card-content h4{
+    color: #282828;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 10px 0;
+}
+.featured-jobs .feature-jobs-carousel .jobs-item .apply-now-btn{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.featured-jobs .feature-jobs-carousel .jobs-item .apply-now-btn .btn-f-jobs{
+    padding: 10px 22px;
+    min-height: 5px;
+}
+.feature-jobs-carousel .slick-prev,.feature-jobs-carousel .slick-next{
+    font-size: 0;
+    width: 44px;
+    height: 44px;
+    background-color: #104627;
+    border: none;
+    position: absolute;
+  }
+    .feature-jobs-carousel .slick-next::after{
+        content: url(../Logos/slickarrowsnext.svg);
+        position: absolute;
+        left: -11px;
+        bottom: 11px;
+        width: 44px;
+        height: 44px;
+    }
+  .feature-jobs-carousel .slick-prev::after{
+        content: url(../Logos/slickarrowsprev.svg);
+        position: absolute;
+        left: -9px;
+        bottom: 11px;
+        width: 44px;
+        height: 44px;
+    }
+  .feature-jobs-carousel .slick-prev{
+        left: -7%;
+    }
+    .feature-jobs-carousel .slick-next{
+        right: -7%;
+    }
+    .feature-jobs-carousel .slick-prev, 
+    .feature-jobs-carousel .slick-next {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+.vacant-positions{
+    padding-bottom: 184px;
+}
+.vacant-positions .inner .head {
+    margin-bottom: 80px;
+}
+.vacant-positions .inner .head h2{
+    letter-spacing: 6px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+.vacant-positions .inner .head p{
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+.vacant-positions .inner .position-wrapper{
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45px;
+}
+.vacant-positions .inner .position-wrapper:last-child{
+    border-bottom: 1px solid #000;
+}
+.vacant-positions .inner .position-wrapper .position-details{
+    margin-top: 55px;
+    margin-bottom: 73px;
+}
+.vacant-positions .inner .position-wrapper .position-details h3{
+    color: #343832;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.vacant-positions .inner .position-wrapper .position-details p{
+    color: #343832;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+}
+.vacant-positions .inner .position-wrapper .btn-apply{
+    padding: 21px 55px 22px 56px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.employer {
+    padding-bottom: 140px;   
+}
+.employer .inner .head h2{
+    letter-spacing: 6px;
+    margin-bottom: 70px;
+    
+}
+
+.employer .offers-wrapper .employement-image img{
+    width: 100%;
+}
+.employer .offers-wrapper{
+    align-items: center;
+}
+.employer .inner .offers-wrapper .offers{
+    max-width: 810px;
+    width: 100%;
+    margin: auto;
+}
+.employer .offers-wrapper .employement{
+    max-width: 475px;
+    width: 100%;
+    margin:30px auto 0 auto;
+}
+.employer .offers-wrapper .employement .employement-inner{
+    border-radius: 20px;
+    padding: 5px 5px;
+    text-align: center;
+}
+.employer .offers-wrapper .employement .employement-inner h3{
+    color: #343832;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+.employer .offers-wrapper .employement .employement-inner p{
+    color: #343832;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 1px;
+}
+.employer .offers-wrapper .employement .employement-inner ul{
+    padding: 0 0;
+    margin: 0 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 630px;
+    margin: 15px auto 0 auto;
+}
+.employer .offers-wrapper .employement .employement-inner ul li p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+}
+.employer .offers-wrapper .employement .employement-inner ul li{
+    margin-left: 17px;
+    position: relative;
+    margin-right: 22px;
+    max-width: 275px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.employer .offers-wrapper .employement .employement-inner ul li::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    left: -12px;
+    top: 12px;
+}
+
+
+@media only screen and (max-width: 1600px){
+    .featured-jobs .feature-jobs-carousel .jobs-item .card-content h3 {
+        font-size: 20px;
+        line-height: 26px;
+        min-height: 53px;
+    }
+    .feature-jobs-carousel .slick-prev{
+        left: -5%;
+    }
+    .feature-jobs-carousel .slick-next {
+        right: -5%;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item {
+        padding: 15px 15px;
+    }
+    .vacant-positions{
+        padding-bottom: 100px;
+    }
+    .vacant-positions .inner .head h2{
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .vacant-positions .inner .head p{
+        font-size: 20px;
+    }
+    .vacant-positions .inner .head{
+        margin-bottom: 50px;
+    }
+    .vacant-positions .inner .position-wrapper{
+        padding: 0 35px;
+    }
+    .vacant-positions .inner .position-wrapper .position-details {
+        margin: 25px 0;
+    }
+    .vacant-positions .inner .position-wrapper .position-details h3{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .vacant-positions .inner .position-wrapper .position-details p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .vacant-positions .inner .position-wrapper .btn-apply {
+        padding: 12px 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .employer .inner .head h2{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .employer{
+        padding-bottom: 100px;
+    }
+    .employer .offers-wrapper .employement .employement-inner h3 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+    .employer .offers-wrapper .employement .employement-inner p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .employer .offers-wrapper .employement {
+        max-width: 500px;
+        margin: 0px auto 14% auto;
+    }
+    .employer .offers-wrapper .employement .employement-inner ul{
+        margin-top: 10px;
+    }
+    .employer .offers-wrapper .employement .employement-inner ul li {
+        max-width: 226px;
+        margin-bottom: 15px;
+    }
+    .employer .offers-wrapper .employement .employement-inner ul li p {
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .employer .inner .offers-wrapper .offers {
+        max-width: 540px;
+        margin-top: 30px;
+    }
+    .employer .offers-wrapper{
+        align-items: flex-end;
+    }
+    .employer .inner .offers-wrapper.bot-offers{
+        align-items: flex-start;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .featured-jobs .feature-jobs-carousel {
+        max-width: 870px;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item {
+        padding: 10px 5px;
+    }
+    .feature-jobs-carousel .slick-next {
+        right: -4.5%;
+    }
+    .feature-jobs-carousel .slick-prev {
+        left: -4.5%;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item .card-content h3 {
+        font-size: 18px;
+        line-height: 24px;
+        min-height: 48px;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item .card-content h4 {
+        font-size: 16px;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item .apply-now-btn .btn-f-jobs {
+        padding: 8px 17px;
+    }
+    .vacant-positions{
+        padding-bottom: 70px;
+    }
+    .vacant-positions .inner .head h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .vacant-positions .inner .head p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .vacant-positions .inner .position-wrapper {
+        padding: 0 20px;
+    }
+    .vacant-positions .inner .head {
+        margin-bottom: 40px;
+    }
+    .vacant-positions .inner .position-wrapper .position-details {
+        margin: 20px 0;
+    }
+    .vacant-positions .inner .position-wrapper .position-details h3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .vacant-positions .inner .position-wrapper .position-details p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .vacant-positions .inner .position-wrapper .btn-apply {
+        padding: 8px 20px;
+        min-height: 5px;
+        font-size: 16px;
+    }    
+    .employer .inner .head h2 {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+    .employer{
+        padding-bottom: 70px;
+    }
+    .employer .offers-wrapper .employement .employement-inner h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .employer .offers-wrapper .employement .employement-inner p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .employer .offers-wrapper .employement {
+        max-width: 430px;
+    }
+    .employer .inner .offers-wrapper .offers {
+        max-width: 100%;
+    }
+    .employer .offers-wrapper .employement .employement-inner ul li p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .employer .offers-wrapper .employement .employement-inner ul li {
+        max-width: 196px;
+        margin-bottom: 0px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .featured-jobs .feature-jobs-carousel {
+        max-width: 90%;
+    }
+    .feature-jobs-carousel .slick-prev, .feature-jobs-carousel .slick-next {
+        width: 35px;
+        height: 35px;
+    }
+    .feature-jobs-carousel .slick-prev::after {
+        left: -13px;
+        bottom: 15px;
+        width: 35px;
+        height: 35px;
+    }
+    .feature-jobs-carousel .slick-next::after {
+        left: -15px;
+        bottom: 15px;
+        width: 35px;
+        height: 35px;
+    }
+    .feature-jobs-carousel .slick-next {
+        right: -5.5%;
+        top: 40%;
+    }
+    .feature-jobs-carousel .slick-prev{
+        left: -5.5%;
+        top: 40%;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item .card-content h3 {
+        font-size: 16px;
+        line-height: 22px;
+        min-height: 44px;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item .card-content h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item .apply-now-btn .btn-f-jobs {
+        padding: 7px 15px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item {
+        max-width: 215px;
+    }
+    .vacant-positions .inner .head h2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .vacant-positions .inner .head p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .vacant-positions .inner .head {
+        margin-bottom: 30px;
+    }
+    .vacant-positions .inner .position-wrapper {
+        padding: 0 15px;
+    }
+    .vacant-positions .inner .position-wrapper .position-details {
+        margin: 15px 0;
+    }
+    .vacant-positions .inner .position-wrapper .position-details h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .vacant-positions .inner .position-wrapper .btn-apply{
+        font-weight: 400;
+    }
+    .employer .inner .head h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .employer .inner .offers-wrapper{
+        align-items: center;
+    }
+    .employer .offers-wrapper .employement {
+        max-width: 100%;
+        margin: 0 auto 20px 0;
+    }
+    .employer .inner .offers-wrapper.bot-offers {
+        flex-direction: column-reverse;
+    }
+    .employer .inner .offers-wrapper .employement.offers {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .employer .offers-wrapper .employement .employement-inner ul{
+        justify-content: center;
+    }
+    .employer .offers-wrapper .employement .employement-inner h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .employer .offers-wrapper .employement .employement-inner p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: auto;
+    }
+    .employer .offers-wrapper .employement .employement-inner {
+        width: 90%;
+        margin: auto;
+    }
+    .employer {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .featured-jobs .feature-jobs-carousel {
+        max-width: 85%;
+    }
+    .feature-jobs-carousel .slick-prev {
+        left: -8%;
+        top: 50%;
+    }
+    .feature-jobs-carousel .slick-next{
+        right: -8%;
+        top: 50%;
+    }
+    .featured-jobs .feature-jobs-carousel .jobs-item {
+        max-width: 100%;
+    }
+    .vacant-positions .inner .head h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .vacant-positions .inner .head p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .vacant-positions .inner .head {
+        margin-bottom: 25px;
+    }
+    .vacant-positions .inner .position-wrapper .position-details {
+        margin: 10px 0;
+    }
+    .vacant-positions .inner .position-wrapper .position-details h3 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .vacant-positions .inner .position-wrapper .position-details p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .employer .inner .head h2 {
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 5px;
+    }
+    .employer .offers-wrapper .employement .employement-inner h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .employer {
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .featured-jobs .feature-jobs-carousel {
+        max-width: 80%;
+    }
+    .feature-jobs-carousel .slick-next {
+        right: -12%;
+    }
+    .feature-jobs-carousel .slick-prev{
+        left: -12%;
+    }
+    .vacant-positions .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .vacant-positions .inner .position-wrapper {
+        padding: 0 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .vacant-positions .inner .position-wrapper .position-details h3 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .vacant-positions .inner .position-wrapper .btn-apply {
+        font-weight: 400;
+        font-size: 14px;
+        padding: 5px 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .employer .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .employer .offers-wrapper .employement .employement-inner {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .employer .offers-wrapper .employement .employement-inner h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .employer .offers-wrapper .employement .employement-inner ul{
+        margin-top: 10px;
+    }
+}
+
+/*Careers page styling ends*/
+
+/*News & Stories Styling Starts*/
+.news-story-hero{
+    padding: 0 0 168px 0;
+    overflow: hidden;
+}
+.news-story-hero::after{
+    opacity: 1;
+    background-color: #ffffff;
+}
+.news-story-hero .welcome-note p{
+    color: #000;
+    text-transform: uppercase;
+}
+.news-story-hero .welcome-note::before, .news-story-hero .welcome-note::after{
+    background-color: #000;
+}
+.news-story-hero .inner .page-hero-heading{
+    margin: 55px 0 89px 0;
+}
+.news-story-hero .inner .page-hero-heading h1 {
+    color: #000;
+    text-transform: uppercase;
+}
+/*news-carousel*/
+.news-carousel{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  .news-carousel h2{
+    font-family:sans-serif;
+    color:#fff;
+  }
+  .news-carousel .category-carousel{
+    max-width: 1432px;
+    width: 100%;
+    margin:0px auto;
+  }
+  .news-carousel .category-item img{
+    max-width: 263px;
+    width: 100%;
+  }
+  
+  .news-carousel .category-item p{
+    position: absolute;
+    bottom: 47px;
+    margin-left: 22px;
+    color: #ffffff;
+    font-size: 23.934px;
+    font-weight: 700;
+    line-height: 28.003px;
+    letter-spacing: 1.33px;
+    text-transform: uppercase;
+    z-index: 1;
+    }
+  .news-carousel .category-item p::after{
+        content: '';
+        position: absolute;
+        width: 31.912px;
+        height: 3.989px;
+        background-color: #104627;
+        left: 0;
+        bottom: -12px;
+        z-index: 1;
+    }
+  .news-carousel .slick-prev,.news-carousel .slick-next{
+    font-size: 0;
+    width: 64px;
+    height: 64px;
+    background-color: #104627;
+    border: none;
+    position: absolute;
+  }
+    .news-carousel .slick-next::after{
+        content: url(../Logos/slickarrowsnext.svg);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+  .news-carousel .slick-prev::after{
+        content: url(../Logos/slickarrowsprev.svg);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+  .news-carousel .slick-prev{
+        left: -10.1%;
+        top: 195px;
+    }
+    .news-carousel .slick-next{
+        right: -10.1%;
+        top: 195px;
+    }
+  .news-carousel .category-item{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    border: none;
+    margin: 0 12px;
+  }
+  .news-carousel .category-item::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #141A1F 100%);
+    z-index: 0;
+    position: absolute;
+  }
+/*news-carousel*/
+.news .container{
+    max-width: 1467px;
+}
+.news .inner .head{
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+.news .inner .head h2{
+    color: #000;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 17px;
+}
+.news .news-container{
+    padding: 50px 0;
+}
+.news .news-container .news-artical{
+    display: flex;
+    margin-top: 43px;
+}
+.news .news-container .news-artical img{
+    max-width: 272.529px;
+    width: 100%;
+}
+.news .news-container .news-artical .artical-details{
+    font-style: normal;
+    color: #1D252C;
+    font-weight: 400;
+    margin: auto 0 auto 17px;
+    max-width: 403px;
+    width: 100%;
+}
+.news .news-container .news-artical .artical-details h4{
+    font-size: 13.273px;
+    line-height: 17.698px;
+    letter-spacing: 1.659px;
+    text-transform: uppercase;
+}
+.news .news-container .news-artical .artical-details h3{ 
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.177px;
+    text-transform: uppercase;
+    margin: 6px 0;
+}
+.news .news-container .news-artical .artical-details p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    min-height: 95px;
+    height: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.news .news-container .news-artical .artical-details .date{
+    color: #000;
+    font-size: 13.273px;
+    line-height: 16.282px;
+}
+.stories{
+    padding: 50px 0;
+}
+.stories .container{
+    max-width: 1467px;
+}
+.stories .inner .head{
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+.stories .inner .head h2{
+    color: #000;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 17px;
+}
+.stories .stories-container .story-card{
+    max-width: 457px;
+    width: 100%;
+    margin: 79px auto 0 auto;
+    border: 1px solid #000;
+}
+.stories .stories-container .story-card img{
+    width: 100%;
+}
+.stories .stories-container .story-card .artical-details{
+    padding: 25px 25px;
+    font-style: normal;
+    color: #1D252C;
+}
+.stories .stories-container .story-card .artical-details h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.177px;
+    text-transform: uppercase;
+    margin-top: 6px;
+
+}
+.stories .stories-container .story-card .artical-details p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 10px 0 54px 0;
+}
+.stories .stories-container .story-card .artical-details .author{
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.282px;
+}
+.stories .stories-container .story-card .artical-details .date{
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16.282px;
+}
+
+@media only screen and (max-width: 1800px){
+    .news-carousel .slick-prev{
+        left: -4.5%;
+        top: 195px;
+        height: 40px;
+        width: 40px;
+    }
+    .news-carousel .slick-next{
+        right: -4.5%;
+        top: 195px;
+        height: 40px;
+        width: 40px;
+    } 
+    .news-carousel .slick-next::after{
+        left: -12px;
+        height: 40px;
+        width: 40px;
+        top: -13px;
+    }
+    .news-carousel .slick-prev::after{
+        left: -11px;
+        height: 40px;
+        width: 40px;
+        top: -13px;
+    }
+  }
+  @media only screen and (max-width: 1600px){
+    .news-story-hero {
+     padding-bottom: 100px;
+    }
+    .news-story-hero .inner .page-hero-heading {
+     margin-bottom:70px;
+    }
+    .news-carousel .category-carousel {
+        max-width: 1220px;
+    }
+    .news-carousel .category-item img {
+        max-width: 220px;
+    }
+    .news-carousel .slick-prev{
+        left: -5%;
+    }
+    .news-carousel .slick-next{
+        right: -5%;
+    } 
+    .news-carousel .category-item p{
+            margin-left: 8px;
+            font-size: 16px;
+            line-height: 22px;
+    }
+    .news .container, .stories .container {
+        max-width: 1220px;
+    }
+    .news .inner .head h2 ,.stories .inner .head h2 {
+        font-size: 44px;
+        margin-bottom: 15px;
+        line-height: 50px;
+    }
+    .news .news-container , .stories .stories-container {
+        padding: 20px 0;
+    }
+    .news .news-container .news-artical .artical-details h3{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .stories .stories-container .story-card{
+        margin-top: 43px;
+    }
+    .stories {
+        padding: 70px 0;
+    }
+  }
+  @media only screen and (max-width: 1400px){
+    .news-story-hero .welcome-note{
+        margin-top: 40px;
+    }
+    .news-story-hero .inner .page-hero-heading {
+        margin-bottom: 40px;
+    }
+    .news-carousel .category-carousel {
+        max-width: 970px;
+    }
+    .news-carousel .slick-prev{
+        left: -7%;
+        top: 145px;
+    }
+    .news-carousel .slick-next{
+        right: -7%;
+        top: 145px;
+    } 
+    .news .news-container .news-artical img {
+        max-width: 200px;
+        object-fit: cover;
+    }
+    .news .container, .stories .container {
+        max-width: 1020px;
+    }
+    .news .news-container .news-artical .artical-details p{
+        min-height: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .news .news-container .news-artical .artical-details h3 {
+        margin: 2px 0;
+    }
+    .news .inner .head h2, .stories .inner .head h2 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .news .news-container, .stories .stories-container {
+        padding: 0 0;
+    }
+  }
+  @media only screen and (max-width: 1200px){
+    .news-carousel .category-item img{
+        max-width: 190px;
+    }
+    .news-carousel .category-item p {
+        margin-left: 10px;
+    }
+    .news-carousel .category-carousel {
+        max-width: 850px;
+    }
+    .news-carousel .slick-prev{
+        top: 140px;
+    }
+    .news-carousel .slick-next{
+        top: 140px;
+    } 
+    .news-story-hero {
+        padding-bottom: 70px;
+    }
+    .news .container, .stories .container {
+        max-width: 890px;
+    }
+    .news .container, .stories .container {
+        max-width: 90%;
+    }
+    .news .inner .head h2, .stories .inner .head h2 {
+        font-size: 38px;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+    .news .news-container .news-artical, .stories .stories-container .story-card{
+        margin-top: 35px;
+    }
+    .news .news-container .news-artical .artical-details h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .stories .stories-container .story-card .artical-details {
+        padding: 20px 20px;
+    }
+    .stories .stories-container .story-card .artical-details p{
+        margin-bottom: 35px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .news-carousel .category-item img{
+        max-width: 198px;
+    }
+    .news-carousel .category-carousel{
+        max-width: 635px;
+    }
+    .news-carousel .slick-prev{
+        left: -8.5%;
+        top: 145px;
+    }
+    .news-carousel .slick-next{
+        right: -8.5%;
+        top: 145px;
+    }
+    .news-story-hero {
+        padding-bottom: 50px;
+    }
+    .news .inner .head h2, .stories .inner .head h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .news .news-container .news-artical .artical-details{
+        max-width: 100%;
+    }
+    .news .news-container .news-artical .artical-details p{
+    -webkit-line-clamp: 10;
+    }
+    .stories {
+        padding: 50px 0;
+    }
+    
+    .stories .stories-container .story-card .artical-details p {
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .news-carousel .category-item img{
+        max-width: 150px;
+    }
+    .news-carousel .category-carousel {
+        max-width: 490px;
+    }
+    .news-carousel .slick-prev{
+        left: -8%;
+        top: 110px;
+    }
+    .news-carousel .slick-next{
+        right: -8%;
+        top: 110px;
+    }
+    .news-carousel .slick-next, .news-carousel .slick-prev{
+        height: 30px;
+        width: 30px;
+    }
+    .news-carousel .slick-next::after, .news-carousel .slick-prev::after{
+        height: 15px;
+        width: 15px;
+        top: -18px;
+        left: -16px;
+    }
+    .news-story-hero .inner .page-hero-heading {
+        margin-bottom: 25px;
+    }
+    .news .inner .head h2, .stories .inner .head h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .news .news-container .news-artical, .stories .stories-container .story-card {
+        margin-top: 30px;
+    }
+    .news .news-container .news-artical .artical-details .date {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .stories .stories-container .story-card{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 575px){
+    .news-story-hero {
+        padding-bottom: 70px;
+    }
+    .news-story-hero .inner .page-hero-heading {
+        margin-bottom: 15px;
+        margin-top: 40px;
+    }
+    .news-carousel .category-carousel {
+        max-width: 400px;
+    }
+    .news-carousel .category-item{
+        max-width: 180px;
+        width: 100%;
+    }
+    .news-carousel .category-item img{
+        max-width: 100%;
+    }
+    .news-carousel .slick-prev{
+        top: 50%;
+    }
+    .news-carousel .slick-next{
+        top: 50%;
+    }
+    .news .inner .head h2, .stories .inner .head h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .news .news-container .news-artical, .stories .stories-container .story-card {
+        margin-top: 30px;
+    }
+    .news .news-container .news-artical{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .news .news-container .news-artical img{
+        max-width: 100%;
+    }
+    .news .news-container .news-artical .artical-details{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .stories .stories-container .story-card .artical-details h3 {
+        margin-top: 0;
+    }
+    .stories .stories-container .story-card .artical-details p {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and  (max-width:480px){
+    .news-carousel .category-item {
+        max-width: 60%;
+        margin: auto;
+    }
+    .news-carousel .slick-prev {
+        left: 5%;
+    }
+    .news-carousel .slick-next {
+        right: 5%;
+    }
+}
+/*news-and-stories Page Stylings Ends*/
+
+
+
+
+/*Service-crisis-page Page Stylings Starts*/
+.service-page-hero .inner .page-hero-details .contact-no{
+    margin-top: 70px;
+}
+.service-page-hero .container .inner .page-hero-details{
+    margin-bottom: 203px;
+}
+.crisis-services{
+    padding: 131px 0;
+    overflow: hidden;
+}
+.crisis-services .inner .head {
+    margin-bottom: 75px;
+}
+.crisis-services .inner .head h2{
+    letter-spacing: 6px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+.crisis-services .inner .head p{
+    letter-spacing: 1px;
+    max-width: 1417px;
+    width: 100%;
+    margin: 0 auto;
+}
+.crisis-services .inner .service-wrapper{
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+}
+.crisis-services .inner .service-wrapper:last-child{
+    border-bottom: 1px solid #000;    
+}
+.crisis-services .inner .service-wrapper .service-details{
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 73px;
+}
+.crisis-services .inner .service-wrapper .service-details h3{
+    color: #343832;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.crisis-services .inner .service-wrapper .service-details p{
+    color: #343832;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+}
+ .avail-location{
+    padding: 70px 0;
+ }
+ .avail-location .inner .head h2{
+    letter-spacing: 6px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+ }
+ .avail-location .inner .locations-wrapper{
+    max-width: 44.7%;
+    width: 100%;
+    margin: 0 auto;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+ }
+ .avail-location .inner .locations-wrapper .location-details{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;  
+ }
+ .avail-location .inner .locations-wrapper .location-details p{
+    color: #0D0D0D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48.1px;
+ }
+ .avail-location .inner .locations-wrapper .location-details p span{
+    font-weight: 700;
+ }
+ .avail-location .inner .locations-wrapper .location-details p a{
+    text-decoration: none;
+    color: #000; 
+}
+@media only screen and (max-width: 1600px){
+    .crisis-services{
+        padding: 100px 0;
+    }
+    .service-page-hero .container .inner .page-hero-details{
+        margin-bottom: 150px;
+    }
+ .avail-location .inner .head h2, .crisis-services .inner .head h2{
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    
+    .crisis-services .inner .head p{
+        max-width: 1275px;
+        font-size: 20px;
+    }
+    .crisis-services .inner .head{
+        margin-bottom: 50px;
+    }
+    .crisis-services .inner .service-wrapper .service-details {
+        margin: 25px auto;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3{
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .crisis-services .inner .service-wrapper .service-details p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .avail-location .inner .locations-wrapper .location-details p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .crisis-services{
+        padding: 70px 0;
+    }
+    .service-page-hero .container .inner .page-hero-details{
+        margin-bottom: 100px;
+    }
+    .avail-location .inner .head h2, .crisis-services .inner .head h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .crisis-services .inner .head p {
+        max-width: 1050px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .crisis-services .inner .head {
+        margin-bottom: 40px;
+    }
+    .crisis-services .inner .service-wrapper .service-details {
+        margin: 20px auto;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .crisis-services .inner .service-wrapper .service-details p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .avail-location {
+        padding: 50px 0;
+    }
+    .avail-location .inner .locations-wrapper .location-details p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .avail-location .inner .head h2, .crisis-services .inner .head h2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .service-page-hero .container .inner .page-hero-details{
+        margin-bottom: 70px;
+    }
+    .crisis-services .inner .head p {
+        max-width: 750px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .crisis-services .inner .head {
+        margin-bottom: 30px;
+    }
+    .crisis-services .inner .service-wrapper .service-details {
+        margin: 15px auto;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .avail-location .inner .locations-wrapper {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .crisis-services{
+        padding: 50px 0;
+    }
+    .avail-location .inner .head h2, .crisis-services .inner .head h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .crisis-services .inner .head p {
+        max-width: 530px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .crisis-services .inner .head {
+        margin-bottom: 25px;
+    }
+    .crisis-services .inner .service-wrapper .service-details {
+        margin: 10px auto;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .crisis-services .inner .service-wrapper .service-details p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .avail-location {
+        padding: 50px 0;
+    }
+    .avail-location .inner .locations-wrapper .location-details p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .avail-location .inner .head h2, .crisis-services .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .crisis-services .inner .head p {
+        max-width: 500px;
+    }
+    .crisis-services .inner .service-wrapper .service-details h3 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+/*Service-crisis-page Page Stylings Ends*/
+
+
+
+/*donate-form-page Page Stylings Starts*/
+
+.donate-form-hero::after{
+    opacity: 0;
+  }
+.donate-form-hero .container .inner .welcome-note p{
+    color: #000;
+    text-transform: uppercase;
+  }
+.donate-form-hero .container .inner .welcome-note::before, .donate-form-hero .container .inner .welcome-note::after{
+    background-color: #000;
+  }
+.donate-form-hero .container .inner .page-hero-heading{
+    margin: 108px 0 27px 0;
+  }
+.donate-form-hero .container .inner .page-hero-heading h1, .donate-form-hero .container .inner .page-hero-details p{
+    color: #000;
+    text-transform: uppercase;
+  }
+.donate-form-hero .container .inner .page-hero-heading h1{
+    font-size: 64px;
+  }
+
+.donation-amount .inner {
+    max-width: 1020px;
+    width: 100%;
+    margin: auto;
+}
+.donation-amount .inner .amount-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.donation-amount .inner .donation-type{
+    width: 100%;
+}
+.donate-form-hero .container .inner .page-hero-details{
+    margin-bottom: 90PX;
+}
+.donation-amount{
+    padding-bottom: 125px;
+}
+.donation-amount .inner .amount-wrapper p{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.donation-amount .inner .amount-wrapper .amount{
+    display: flex;
+    justify-content: center;
+}
+.donation-amount .inner .amount-wrapper .amount .curreny-type span{
+    position: absolute;
+    right: 5px;
+}
+.donation-amount .inner .amount-wrapper .amount .curreny-type::after{
+    content: '';
+    width: 1px;
+    height: 90%;
+    background-color:rgba(0, 0, 0, 0.60);
+    position: absolute;
+    right: 30px;
+    top: 5%;
+}
+.donation-amount .inner .amount-wrapper .amount .curreny-type{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 30.869px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    padding: 23.5px 61px 23.5px 8px;
+    max-width: 162px;
+    width: 100%;
+    max-height: 95px;
+    -webkit-appearance: none;
+    border-radius: 3.859px 0px 0px 3.859px;
+    border-top: 1px solid rgba(0, 0, 0, 0.60);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.60);
+    border-left: 1px solid rgba(0, 0, 0, 0.60);
+    border-right: none;
+    text-decoration: none;
+}
+.donation-amount .inner .amount-wrapper{
+    max-width: 975px;
+    width: 100%;
+    margin: auto;
+}
+.donation-amount .inner .amount-wrapper .amount .amount-field{
+    border-radius: 0px 3.859px 3.859px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.60);
+    border-right: 1px solid rgba(0, 0, 0, 0.60);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.60);
+    border-left: none;
+    max-height: 95px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 30.869px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.donation-amount .inner .amount-wrapper .amount .amount-field:focus{
+    outline: none;
+}
+.donation-amount .inner .donation-type{
+    display: flex;
+    margin-bottom: 72PX;
+    justify-content: center;
+    align-items: center;
+}
+.donation-amount .inner .donation-type .btn-d-type{
+    border-radius: 0px 12.862px 12.862px 0px;
+    border: 2.572px solid #104627;
+    background: #FFF;
+    color: #104627;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23.152px;
+    text-transform: uppercase;
+}
+.donation-amount .inner .donation-type .btn-onetime{
+    padding: 31.94px 194.246px;
+    border-radius: 12.862px 0px 0px 12.862px;
+    background: #104627;
+    color: #ffffff;
+}
+.donation-amount .inner .donation-type .btn-recurring{
+    padding: 31.94px 181px;
+}
+.donation-form .inner .your-details h2{
+    color: #343832;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+    margin-bottom: 55px;
+  }
+.donation-form .inner .your-details{
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+  }
+.donation-form .inner .your-details .field-name{
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 22px;
+    margin-top: 58px;
+  }
+.donation-form .inner .your-details .field-name span{
+    color: #CD4443;
+  }
+.donation-form .inner .your-details .name-check-label, .donation-form .inner .your-details .contact-check-label{
+    color: #102033;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+.donation-form .inner .your-details .form-control:focus{
+    box-shadow: none;
+  }
+.donation-form .inner .your-details .form-control{
+    max-width: 663px;
+    width: 100%;
+    padding: 21.5px 15px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 22px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.60);
+}
+.donation-form .inner .your-details .form-control.comment{
+    max-width: 100%;
+    resize: none;
+}
+.donation-form .inner .your-details .check-wrapper{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+.donation-form .inner .your-details .check-wrapper input[type=checkbox]{
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.60);
+    background: #F9F9F9;
+    width: 16px;
+    height: 16px;
+    margin-right:8px;
+}
+.donation-form .inner .your-details .payment-row{
+    margin-top: 115px;
+}
+.donation-form .inner .your-details .payment-row .onetime-amount p{
+    color: #000;
+    font-size: 25.129px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.donation-form .inner .your-details .payment-row .onetime-amount h3{
+    color: #000;
+    font-size: 43.078px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+.donation-form .inner .your-details .payment-row .onetime-amount .currency{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 26.924px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32.308px;
+    text-transform: uppercase;
+}
+.donation-form .inner .your-details .payment-row .onetime-check{
+    align-items: flex-start;
+}
+.donation-form .inner .your-details .payment-row .onetime-check .onetimecheck{
+    width: 29px;
+    height: 29px;
+}
+.donation-form .inner .your-details .payment-row .onetime-check .onetimecheck-terms{
+    margin-right: 30px;
+    margin-top: -8px;
+    color: #102033;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.398px;
+}
+.donation-form .inner .your-details .payment-row .payment-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.donation-form .inner .your-details .payment-row .payment-buttons p{
+    color: #333;
+    font-size: 21.539px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.719px;
+    max-width: 583px;
+    width: 100%;
+    margin: 0 0 15px auto;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+.donation-form .inner .your-details .payment-row .payment-buttons .payment-btn:not(:last-child){
+    margin-bottom: 14px;
+}
+.donation-form .inner .your-details .payment-row .payment-buttons .payment-btn{
+    padding: 17.949px 143.503px 17.949px 145.295px;
+    border-radius: 7.18px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 25.129px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.donation-form .inner .your-details .payment-row .payment-buttons .btn-Gpay img{
+    margin-right: 13.5px;
+}
+.donation-form .inner .your-details .payment-row .payment-buttons .btn-paypal{
+    padding: 17.949px 230.52px 17.949px 230.538px;
+    background: #FFC439;
+}
+.donation-form .inner .your-details .payment-row .payment-buttons .btn-venmo{
+    padding: 17.949px 230.52px 17.949px 230.538px;
+    background: #008CFF;
+}
+.donation-form .inner .your-details .payment-row .payment-buttons .btn-credit{
+    padding: 19.744px 202.573px 19.744px 200.24px;
+    background: #FF5A3D;
+}
+.donation-form .inner .your-details .payment-row .payment-buttons .btn-bank{
+    padding: 19.744px 180.245px 19.744px 181.286px;
+    background: #FF5A3D;
+}
+@media only screen and (max-width: 1600px){
+    .donate-form-hero .container .inner .page-hero-heading h1 {
+        font-size: 56px;
+        line-height: 62px;
+    }
+    .donation-amount .inner .donation-type{
+        margin-bottom: 65px;
+    }
+    .donation-amount .inner .donation-type .btn-onetime{
+        padding: 25.94px 150.246px;
+    }
+    .donation-amount .inner .donation-type .btn-recurring {
+        padding: 25.94px 137px;
+    }
+    .donation-amount .inner .amount-wrapper p{
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+    .donation-amount .inner .amount-wrapper .amount .curreny-type{
+        max-width: 142px;
+        padding: 15.5px 38px 15.5px 8px;
+        font-size: 28px;
+    }
+    .donation-amount .inner .amount-wrapper .amount .amount-field{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .donation-amount .inner .amount-wrapper{
+        max-width: 830px;
+    }
+    .donation-amount {
+        padding-bottom: 100px;
+    }
+    .donation-form .inner .your-details {
+        max-width: 95%;
+    }
+    .donation-form .inner .your-details h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .donation-form .inner .your-details .field-name {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 15px;
+        margin-top: 38px;
+    }
+    .donation-form .inner .your-details .form-control {
+        padding: 15px 15px;
+    }
+    .donation-form .inner .your-details .payment-row {
+        margin-top: 80px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount p, .donation-form .inner .your-details .payment-row .onetime-check .onetimecheck-terms{
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 0;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount h3 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .payment-btn{
+        font-size: 22px;
+        line-height: 28px;
+        padding: 15px 95px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons p{
+    max-width: 468px;
+    font-size: 20px;
+    line-height: 26px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-venmo,.donation-form .inner .your-details .payment-row .payment-buttons .btn-paypal{
+        padding: 14.5px 170px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-credit{
+        padding: 19px 151.3px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-bank{
+        padding: 19px 132.3px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .donate-form-hero .container .inner .page-hero-heading h1 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .donate-form-hero .container .inner .page-hero-details {
+        margin-bottom: 80px;
+    }
+    .donation-amount .inner .donation-type .btn-onetime {
+        padding: 20.94px 130.246px;
+    }
+    .donation-amount .inner .donation-type .btn-recurring {
+        padding: 20.94px 117px;
+    }
+    .donation-amount .inner .donation-type {
+        margin-bottom: 50px;
+    }
+    .donation-amount .inner .amount-wrapper {
+        max-width: 750px;
+    }
+    .donation-amount .inner .amount-wrapper p {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .donation-amount .inner .amount-wrapper .amount .curreny-type {
+        max-width: 130px;
+    }
+    .donation-form .inner .your-details h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+    .donation-form .inner .your-details .field-name {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .donation-form .inner .your-details .form-control{
+        line-height: 26px;
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+    .donation-form .inner .your-details .name-check-label, .donation-form .inner .your-details .contact-check-label{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .donation-form .inner .your-details .check-wrapper input[type=checkbox] {
+        width: 14px;
+        height: 14px;
+        margin-right: 5px;
+    }
+    .donation-form .inner .your-details .payment-row {
+        margin-top: 60px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount p, .donation-form .inner .your-details .payment-row .onetime-check .onetimecheck-terms {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount h3 {
+        font-size: 40px;
+        line-height: 46px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .payment-btn:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .payment-btn {
+        font-size: 20px;
+        line-height: 26px;
+        padding: 12px 80px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-venmo, .donation-form .inner .your-details .payment-row .payment-buttons .btn-paypal{
+        padding: 11.5px 147.8px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-credit{
+        padding: 17px 135.9px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-bank{
+        padding: 17px 118.4px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons p {
+        max-width: 410px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .donate-form-hero .container .inner .page-hero-details {
+        margin-bottom: 50px;
+    }
+    .donation-amount .inner .donation-type .btn-onetime {
+        padding: 15.94px 100.246px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .donation-amount .inner .donation-type .btn-recurring {
+        padding: 15.94px 87px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .donation-amount .inner .donation-type {
+        margin-bottom: 40px;
+    }
+    .donation-amount .inner .amount-wrapper .amount .curreny-type {
+        max-width: 110px;
+        font-size: 20px;
+    }
+    .donation-amount .inner .amount-wrapper {
+        max-width: 585px;
+    }
+    .donation-amount .inner .amount-wrapper p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .donation-amount {
+        padding-bottom: 70px;
+    }
+    .donation-form .inner .your-details .field-name {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+    .donation-form .inner .your-details .form-control {
+        line-height: 22px;
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+    .donation-form .inner .your-details .payment-row {
+        margin-top: 50px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount p, .donation-form .inner .your-details .payment-row .onetime-check .onetimecheck-terms {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount h3 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount .currency {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons p {
+        max-width: 350px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .payment-btn:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .payment-btn {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 10px 57.5px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-venmo, .donation-form .inner .your-details .payment-row .payment-buttons .btn-paypal{
+        padding: 9.5px 118px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-credit{
+        padding: 16px 113px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-bank{
+        padding: 16px 97.5px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .donate-form-hero .container .inner .page-hero-heading h1 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .donation-amount .inner .amount-wrapper .amount .amount-field {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .donation-amount .inner .donation-type .btn-onetime, .donation-amount .inner .donation-type .btn-recurring{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .donation-amount .inner .amount-wrapper .amount .curreny-type {
+        max-width: 100px;
+        font-size: 18px;
+    }
+    .donation-amount {
+        padding-bottom: 60px;
+    }
+    .donation-form .inner .your-details h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .donation-form .inner .your-details .field-name {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 15px;
+    }
+    .donation-form .inner .your-details .form-control {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .donation-form .inner .your-details .check-wrapper {
+        margin-top: 10px;
+    }
+    .donation-form .inner .your-details .payment-row {
+        margin-top: 40px;
+    }    
+    .donation-form .inner .your-details .payment-row .onetime-amount p, .donation-form .inner .your-details .payment-row .onetime-check .onetimecheck-terms {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount h3 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount .currency {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-check .onetimecheck-terms {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons p {
+        max-width: 265px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .payment-btn {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 11px 56.7px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-Gpay img {
+        margin-right: 0px;
+        max-width: 50px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-venmo img, .donation-form .inner .your-details .payment-row .payment-buttons .btn-paypal img{
+        max-width: 61px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-venmo, .donation-form .inner .your-details .payment-row .payment-buttons .btn-paypal{
+        padding: 11px 102px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-credit{
+        padding: 11.6px 84.29px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons .btn-bank{
+        padding: 11.5px 72.23px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .donate-form-hero .container .inner .page-hero-heading h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .donation-amount .inner .donation-type .btn-onetime, .donation-amount .inner .donation-type .btn-recurring {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+    .donation-amount .inner .donation-type .btn-onetime {
+        padding: 10.94px 80.246px;
+    }
+    .donation-amount .inner .donation-type .btn-recurring{
+        padding: 10.94px 67px;
+    }
+    .donation-amount .inner .donation-type {
+        margin-bottom: 35px;
+    }
+    .donation-amount .inner .amount-wrapper {
+        max-width: 459px;
+    }
+    .donation-amount .inner .amount-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .donation-amount .inner .amount-wrapper .amount .curreny-type {
+        max-width: 90px;
+        font-size: 16px;
+    }
+    .donation-amount .inner .amount-wrapper .amount .amount-field {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .donation-amount {
+        padding-bottom: 50px;
+    }
+    .donation-form .inner .your-details h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .donation-form .inner .your-details .field-name {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons{
+        align-items: center;
+    }
+    .donation-form .inner .your-details .payment-row .payment-buttons p{
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .donate-form-hero .container .inner .page-hero-heading h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .donate-form-hero .container .inner .page-hero-details {
+        margin-bottom: 40px;
+    }
+    .donation-amount .inner .donation-type{
+        flex-direction: column;
+    }
+    .donation-amount .inner .donation-type .btn-d-type.btn-onetime {    
+        padding: 10.94px 118.7px;
+    }
+    .donation-amount .inner .donation-type .btn-d-type {
+        margin-top: 10px;
+        border-radius: 12.862px 12.862px;
+        padding: 10.94px 110px;
+    }
+    .donation-amount .inner .donation-type {
+        margin-bottom: 30px;
+    }
+    .donation-amount .inner .amount-wrapper {
+        max-width: 330px;
+    }
+    .donation-form .inner .your-details .field-name{
+        margin-top: 10px;
+    }
+    .donation-form .inner .your-details .payment-row {
+        margin-top: 30px;
+    }
+    .donation-form .inner .your-details .payment-row .onetime-amount{
+        text-align: center;
+    }
+
+}
+/*donate-form-page Page Stylings Ends*/
+
+/*Book An Appointment modal*/
+.book-appoinment .card-body .booking-form .select{
+    background: url(../Logos/Vector.png) no-repeat;
+    background-position: 95% 55%;
+}
+.book-appoinment {
+    background: none ;
+    padding-left: 15px;
+}
+.book-appoinment .card-body{
+    background-color: #ffffff;
+}
+.book-appoinment .modal-content {
+    border-radius: 15px;
+    border: none;
+}
+.book-appoinment .modal-dialog{
+    max-width: 1685px;
+    width: 100%;
+    background: none;
+}
+.book-appoinment .card-body .booking-form{
+    padding: 61px 0 45px 0;
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+.book-appoinment .card-body{
+    padding: 0;
+    border-radius: 10px;
+}
+.book-appoinment .card-body .booking-form h3{
+    color: #343832;
+    font-size: 22.555px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.644px;
+    letter-spacing: 0.705px;
+    margin-top: 34px;
+    margin-bottom: 8px;
+}
+.book-appoinment .card-body .booking-form .head-p{
+    color: #000;
+    font-size: 15.003px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.629px;
+    letter-spacing: 0.625px;
+}
+.book-appoinment .card-body .booking-form h2{
+    color: #000;
+    font-size: 34.169px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60.76px;
+}
+.book-appoinment .card-body .booking-form .field-name{
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 16.917px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.097px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.book-appoinment .card-body .booking-form  .field-name span{
+    color: #CD4443;
+}
+.book-appoinment .card-body .booking-form .form-control{
+    padding: 12.5px 10px;
+    max-width: 360px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.book-appoinment .card-body .booking-form  .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.book-appoinment .card-body .booking-form .comment-wrapper .form-control.comment {
+    resize: none;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.book-appoinment .card-body .booking-form .select{
+    padding: 18.5px 10px;
+    max-width: 360px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.097px;
+}
+.book-appoinment .card-body .booking-form .btn-row .btn-book-appoinment {
+    padding: 19px 53px 19px 54px;
+    font-size: 19.6px;
+    font-weight: 600;
+    line-height: 20.491px;
+    margin-top: 20px;
+}
+.book-appoinment .card-body .booking-form .btn-row .check-wrapper{
+    display: flex;
+    align-items: center;
+}
+.book-appoinment .card-body .booking-form .btn-row .check-wrapper .check{
+    width: 16px;
+    height: 16px;
+}
+.book-appoinment .card-body .booking-form .btn-row .check-wrapper .check-terms{
+    color: #102033;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 8px;
+}
+.book-appoinment {
+    padding-left: 15px;
+}
+.book-appoinment .card-body .booking-form .btn-row .btn-book-apointment{
+    min-height: 5px;
+    padding: 19px 53px 19px 54px;
+}
+.book-appoinment .card-body .appointment-image{
+    object-fit: cover;
+    margin-left: -1px;
+}
+@media only screen and (max-width: 1750px){
+    .book-appoinment .modal-dialog{
+            max-width: 90%;
+    }
+    .book-appoinment .card-body .booking-form{
+        padding: 30px 0 30px 0;
+    }
+    .book-appoinment .card-body .booking-form .field-name{
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .book-appoinment .card-body .booking-form{
+        max-width: 85%;
+    }
+    .book-appoinment .card-body .booking-form h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .book-appoinment .card-body .booking-form .head-p {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0;
+        MARGIN-TOP: 5PX;
+    }
+    .book-appoinment .card-body .booking-form h3 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+    .book-appoinment .card-body .booking-form .field-name {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .book-appoinment .card-body .booking-form .form-control {
+        padding: 10px 10px;
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 300px;
+    }
+    .book-appoinment .card-body .booking-form .comment-wrapper .form-control.comment {
+        max-height: 100PX;
+        margin-bottom: 20px;
+    }
+    .book-appoinment .card-body .booking-form .btn-row .check-wrapper .check-terms{
+        font-size: 14PX;
+    }
+    .book-appoinment .card-body .booking-form .btn-row .btn-book-apointment {
+        padding: 10px 45px;
+    }
+    .book-appoinment{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .book-appoinment .card-body .booking-form h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .book-appoinment .card-body .booking-form .head-p {
+        font-size: 14px;
+        line-height: 20px;
+        MARGIN-TOP: 0PX;
+    }
+    .book-appoinment .card-body .booking-form h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .book-appoinment .card-body .booking-form .field-name {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .book-appoinment .card-body .booking-form .form-control {
+        padding: 5px 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .book-appoinment .card-body .booking-form .comment-wrapper .form-control.comment {
+        max-height: 90PX;
+        margin-bottom: 15px;
+    }
+    .book-appoinment .card-body .booking-form .btn-row .check-wrapper .check-terms {
+        font-size: 14PX;
+        line-height: 18px;
+        margin-left: 5px;
+    }
+    .book-appoinment .card-body .booking-form .btn-row .check-wrapper .check {
+        width: 14px;
+        height: 14px;
+    }
+    .book-appoinment .card-body .booking-form .btn-row .btn-book-apointment {
+        padding: 8px 35px;
+    }
+    .book-appoinment .modal-dialog {
+        max-width: 85%;
+    }
+    .book-appoinment .card-body .appointment-image {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .book-appoinment .card-body .booking-form {
+        max-width: 100%;
+        padding-right: 24px;
+    }
+    .book-appoinment .card-body .booking-form h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .book-appoinment .card-body .booking-form h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .book-appoinment .card-body .booking-form .field-name {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .book-appoinment .card-body .booking-form .form-control {
+        padding: 5px 10px;
+        max-width: 215px;
+    }
+    .book-appoinment .card-body .booking-form .comment-wrapper .form-control.comment{
+        max-height: 80px;
+    }
+    .book-appoinment .card-body .booking-form .btn-row .btn-book-apointment {
+        padding: 7px 30px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .book-appoinment .card-body .appointment-image{
+        display: none;
+    }
+    .book-appoinment .card-body .booking-form {
+        padding: 30px;
+    }
+    .book-appoinment .card-body .booking-form .form-control{
+        max-width: 100%;
+    }
+    .book-appoinment {
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .book-appoinment .card-body .booking-form h3 {
+        margin-top: 15px;
+    }
+    .book-appoinment .modal-dialog{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 575px){
+    .book-appoinment .card-body .booking-form {
+        padding: 30px 15px ;
+    }
+    .book-appoinment .card-body .booking-form h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .book-appoinment .card-body .booking-form .comment-wrapper .form-control.comment {
+        max-height: 75px;
+    }
+    .book-appoinment .card-body .booking-form .btn-row .btn-book-apointment {
+        padding: 5px 25px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .book-appoinment .card-body .booking-form .btn-row .btn-book-apointment {
+        margin-top: 10px;
+    }
+    
+}
+/*Book An Appointment modal Ends*/
+/*Add Payment modal*/
+
+.addpaymentmodal .modal-dialog{
+    max-width: 875px;
+    width: 100%;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-body{
+    padding: 15px 59px 29px 59px;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-header, .addpaymentmodal .modal-dialog .modal-content .modal-footer{
+    border: none;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-header .btn-close{
+    width: 8px;
+    height: 8px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-header {
+    padding-top: 33px;
+    position: relative;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-header .modal-title{
+    color: var(--grey-800, #212121);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 28px;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details input::-webkit-outer-spin-button,.addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details input::-webkit-inner-spin-button{ 
+    -webkit-appearance: none;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .field-name{
+    color: #232323;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 14px;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .form-control:focus{
+    box-shadow: none;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .form-control::placeholder{
+    color: #979797;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .form-control{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12.5px 10px;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details input[type="month"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details input[type=number] {
+    -moz-appearance: textfield;
+}
+.addpaymentmodal .modal-dialog .modal-content .modal-footer .btn-addpayment{
+    font-size: 19.6px;
+    font-weight: 600;
+    line-height: 20.491px;
+    padding: 13.883px 34.267px 14.117px 34.733px;
+    margin-bottom: 44px;
+}
+.addedsuccessokay .modal-dialog{
+    max-width: 540px;
+    width: 100%;
+}
+.addedsuccessokay .modal-content .modal-body{
+    padding: 40px 40px;
+}
+.addedsuccessokay .modal-content .modal-body .message{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: normal;
+    font-style: normal;
+    text-align: center;
+}
+.addedsuccessokay .modal-content .modal-body .message h2{
+    color: var(--grey-800, #212121);
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.addedsuccessokay .modal-content .modal-body .message h3{
+    color: #232323;
+    font-size: 16px;
+    font-weight: 500;
+}
+.addedsuccessokay .modal-content .modal-body .message .thankyoumessage{
+    color: #979797;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.542px;
+    margin-top: 30px;
+}
+.addedsuccessokay .modal-content .modal-footer {
+    border: none;
+}
+.addedsuccessokay .modal-content .modal-footer .btn-success-okay{
+    font-size: 14.673px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 43.6px;
+    min-height: 5px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1600px){
+    .addpaymentmodal .modal-dialog {
+        max-width: 50%;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body {
+        padding: 10px 45px 20px 45px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .form-control {
+        padding: 10px 10px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-footer .btn-addpayment {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .addpaymentmodal .modal-dialog .modal-content .modal-header .modal-title {
+        font-size: 22px;
+        line-height: 28px;
+        margin-left: 20px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body{
+        padding: 10px 36px 20px 36px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .form-control {
+        padding: 5px 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-footer .btn-addpayment {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 12px 25px;
+        margin-bottom: 25px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-header .btn-close {
+        width: 7px;
+        height: 7px;
+    }
+    .addedsuccessokay .modal-content .modal-body {
+        padding: 25px 35px;
+    }
+    .addedsuccessokay .modal-content .modal-footer .btn-success-okay{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .addpaymentmodal .modal-dialog .modal-content .modal-header .modal-title {
+        font-size: 22px;
+        line-height: 28px;
+        margin-left: 15px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body {
+        padding: 10px 30px 10px 30px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .field-name{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .form-control {
+        padding: 5px 10px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-footer .btn-addpayment {
+        font-size: 14px;
+        line-height: 22px;
+        min-height: 5px;
+        padding: 10px 22px;
+        margin-bottom: 15px;
+    }
+    .addedsuccessokay .modal-dialog {
+        max-width: 450px;
+    }
+    .addedsuccessokay .modal-content .modal-body .message h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 5px;
+    }
+    .addedsuccessokay .modal-content .modal-body .message .thankyoumessage {
+        margin-top: 25px;
+    }
+    .addedsuccessokay .modal-content .modal-footer .btn-success-okay {
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 991px){
+    .addpaymentmodal .modal-dialog {
+        max-width: 65%;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-header .modal-title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body {
+        padding: 0px 30px 0px 30px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .form-control {
+        padding: 5px 15px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-footer .btn-addpayment {
+        padding: 8px 15px;
+        margin-bottom: 10px;
+    }
+    .addedsuccessokay .modal-content .modal-body {
+        padding: 10px 20px;
+    }
+    .addedsuccessokay .modal-dialog {
+        max-width: 400px;
+    }
+    .addedsuccessokay .modal-content .modal-body .message h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: 0px;
+    }
+    .addedsuccessokay .modal-content .modal-body .message h3 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .addedsuccessokay .modal-content .modal-body .message .thankyoumessage {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .addedsuccessokay .modal-content .modal-footer .btn-success-okay {
+        font-size: 14px;
+        padding: 10px 30px;
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .addpaymentmodal .modal-dialog {
+        max-width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 575px){
+    .addpaymentmodal .modal-dialog .modal-content .modal-header .modal-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-body .payment-details .field-name{
+        margin-top: 10px;
+    }
+    .addedsuccessokay .modal-content .modal-body .message h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .addedsuccessokay .modal-content .modal-body .message h3 {
+        font-size: 14px;
+    }
+    .addedsuccessokay .modal-content .modal-body .message .thankyoumessage {
+        margin-top: 15px;
+    }
+    .addedsuccessokay .modal-dialog {
+        max-width: 320px;
+        margin: auto;
+    }
+    .addedsuccessokay .modal-content .modal-footer .btn-success-okay {
+        padding: 8px 25px;
+    }
+    .addpaymentmodal .modal-dialog .modal-content .modal-header {
+        padding-top: 40px;
+    }
+}
+/*Add Payment modal Ends*/
+
+
+/*Locations styling Starts*/
+.locations {
+    padding: 100px 0;
+}
+.locations .location-accordians{
+    padding: 70px 0 0 0;
+}
+.locations .head h2{
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.locations .location-accordians .accordion-item{
+    box-shadow: 0 3px 8px rgba(0,0,0,.24);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    border: none;
+}
+.locations .location-accordians .accordion-header{
+    border: none;
+    padding: 17px 25px 17px 25px;
+    position: relative;
+}
+.locations .location-accordians .accordion-header .accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+.locations .location-accordians .accordion-header p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+}
+.locations .location-accordians .accordion-header .accordion-button{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0;
+}
+.locations .location-accordians .accordion-collapse .accordion-body{
+    position: relative;
+}
+
+.locations .location-accordians .accordion-collapse.show .accordion-body::before{
+    opacity: 0.3;
+}
+.locations .location-accordians .accordion-collapse .accordion-body::before{
+    content: '';
+    position: absolute;
+    width: calc(100% - 40px);
+    height: 2px;
+    background-color: #a9a5a5;
+    top: 0;
+    left: auto;
+    right: auto;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+.locations .location-accordians .accordion-header .accordion-button:not(.collapsed){
+    box-shadow: none;
+    background-color: #ffffff;
+    color: #000;
+}
+
+.locations .location-accordians .accordion-body .services{
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.locations .location-accordians .accordion-body .services h3{
+    color: #282828;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.locations .location-accordians .accordion-body .services ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.locations .location-accordians .accordion-body .services ul li::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    background-color: #104627;
+    border-radius: 50%;
+    left: -7.5px;
+    top: 8px;
+}
+.locations .location-accordians .accordion-body .services ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+.locations .location-accordians .accordion-body .services ul li{
+    position: relative;
+    padding-left: 15px;
+}
+.locations .location-accordians .accordion-body .services ul li a:hover{
+    color: #104627;
+}
+.locations .location-accordians .accordion-body .services ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+@media only screen and (max-width: 1600px){
+    .locations .location-accordians .accordion-body .services ul li a{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .locations .location-accordians .accordion-header p{
+        max-width: 360px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .locations .location-accordians .accordion-body .services ul li a{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .locations .location-accordians .accordion-header p{
+        max-width: 360px;
+    }
+    .locations .location-accordians .accordion-header .accordion-button{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .locations .location-accordians .accordion-body .services ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .locations .location-accordians .accordion-body .services h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .locations .location-accordians {
+        padding: 70px 10px 0 10px;
+    }
+    .locations .head h2{
+        font-size: 44px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .locations .head p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .locations .location-accordians .accordion-header p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .locations .location-accordians .accordion-header .accordion-button {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .locations .head p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .locations .head h2{
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .locations .location-accordians .accordion-body .services {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .locations .location-accordians .accordion-body .services ul li a {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .locations .location-accordians .accordion-body .services ul li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    .locations .location-accordians .accordion-body .services h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .locations {
+        padding: 100px 0 50px 0;
+    }
+}
+@media only screen and (max-width: 992px){
+    .locations .location-accordians {
+        padding: 50px 20px 0 20px;
+    }
+    .locations .location-accordians .accordion-header p {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+    .locations .location-accordians .accordion-header .accordion-button {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .locations .location-accordians .accordion-header {
+        padding: 20px 20px 20px 20px;
+    }
+    .locations .location-accordians .accordion-body .services {
+        padding: 0;
+    }
+    .locations .location-accordians .accordion-body .services ul li a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .locations .location-accordians .accordion-body .services ul li::before {
+        width: 6px;
+        height: 6px;
+        left: -5px;
+        top: 12px;
+    }
+    .locations .location-accordians .accordion-body .services ul li {
+        padding-left: 10px;
+    }
+    .locations .location-accordians .accordion-body .services ul {
+        margin-top: 12px;
+    }
+    .locations .location-accordians .accordion-body .services h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .locations .head h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .locations .head p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .locations {
+        padding: 50px 0;
+    }
+}
+@media only screen and (max-width: 767px){
+
+    .locations .head h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 5px;
+    }
+    .locations .head p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .locations {
+        padding:50px 0 30px 0;
+    }
+}
+@media only screen and (max-width: 576px){
+    .locations .head h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 0px;
+    }
+    .locations .location-accordians {
+        padding: 30px 5px 0 5px;
+    }
+    .locations .location-accordians .accordion-header .accordion-button {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .locations .location-accordians .accordion-body .services h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .locations .location-accordians .accordion-body .services ul {
+        margin-top: 5px;
+    }
+    .locations .location-accordians .accordion-item{
+        margin-bottom: 30px;
+    }
+}
+/*Locations styling Ends*/
+
+/*Campaigns styling Starts*/
+
+.stories .stories-container .story-card .artical-details .btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .stories-container .story-card .artical-details .btn-wrapper .btn-donate{
+    font-size: 12.078px;
+    font-weight: 500;
+    line-height: 21.647px;
+    padding: 10.353px 22.628px;
+}
+.support-campaign{
+    padding: 100px 0;
+}
+.support-campaign .head h2{
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.support-campaign .head{
+    margin-bottom: 50px;
+}
+.support-campaign .inner .search-form{
+    max-width: 870px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.support-campaign .inner .search-form .field-name{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+.support-campaign .inner .search-form .form-control:focus{
+    box-shadow: none;
+}
+.support-campaign .inner .search-form .form-control::placeholder{
+    color: rgba(0, 0, 0, 0.60);
+}
+.support-campaign .inner .search-form .form-control{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 26px 47px 27px 47px;
+}
+.support-campaign .container{
+    max-width: 1433px;
+}
+.support-campaign .inner .campaigns-progress .campaign{
+    max-width: 660px;
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #000;
+    margin-top: 65px;
+}
+.support-campaign .inner .campaigns-progress .campaign .target-progres{
+    display: flex;
+    align-items: center;
+}
+.support-campaign .inner .campaigns-progress .campaign .target-progres img{
+    width: 100%;
+    max-width: 115px;
+    border-radius: 50%;
+    margin-right: 35px;
+}
+.support-campaign .inner .campaigns-progress .campaign .target-progres .details{
+    width: 100%;
+}
+.support-campaign .inner .campaigns-progress .campaign .target-progres .details h3{
+    font-size: 24.564px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.support-campaign .inner .campaigns-progress .campaign .target-progres .details .Progress-bar{
+    height: 9px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20.47px;
+    background: #F09F54;
+    margin: 10px 0 5px 0;
+}
+.support-campaign .inner .campaigns-progress .campaign .target-progres .details p{
+    color: #000;
+    font-size: 19.105px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.support-campaign .inner .campaigns-progress .campaign .target-progres .details span{
+    font-weight: 700;
+}
+.support-campaign .inner .campaigns-progress .campaign .btn-wrapper{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    margin-top: 30px;
+}
+.support-campaign .inner .campaigns-progress .campaign .btn-wrapper .author-detail .author{
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16.282px;
+}
+.support-campaign .inner .campaigns-progress .campaign .btn-wrapper .author-detail .date{
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.282px;
+}
+.support-campaign .inner .campaigns-progress .campaign .btn-wrapper .btn-donate{
+    font-size: 12.078px;
+    font-weight: 500;
+    line-height: 21.647px;
+    padding: 10.353px 22.628px;
+}
+@media only screen and (max-width: 1600px){
+    .support-campaign .inner .campaigns-progress .campaign .btn-wrapper .btn-donate, .stories .stories-container .story-card .artical-details .btn-wrapper .btn-donate {
+            font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        min-height: 5px;
+        padding: 10px 20px;
+    }
+    .support-campaign {
+        padding: 70px 0;
+    }
+    .support-campaign .inner .search-form{
+        margin-bottom: 50px;
+    }
+    .support-campaign .head h2{
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .support-campaign .container{
+        max-width: 1220px;
+    }
+    .support-campaign .inner .search-form {
+        max-width: 800px;
+    }
+    .support-campaign .inner .search-form .field-name, .support-campaign .inner .search-form .form-control {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign {
+        max-width: 560px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .support-campaign .container {
+        max-width: 1020px;
+    }
+    .support-campaign {
+        padding: 50px 0 70px 0;
+    }
+    .support-campaign .head h2 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .support-campaign .head {
+        margin-bottom: 40px;
+    }
+    .support-campaign .inner .search-form .field-name, .support-campaign .inner .search-form .form-control {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .support-campaign .inner .search-form .form-control {
+        padding: 22px 30px 22px 30px;
+    }
+    .support-campaign .inner .search-form {
+        max-width: 750px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign{
+        margin-top: 35px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres .details h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres .details p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres img {
+        max-width: 100px;
+        margin-right: 25px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .btn-wrapper {
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .support-campaign .container {
+        max-width: 90%;
+    }
+    .support-campaign{
+        padding-top: 0;
+    }
+    .support-campaign .head h2 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .support-campaign .head {
+        margin-bottom: 30px;
+    }
+    .support-campaign .inner .search-form {
+        max-width: 670px;
+        margin-bottom: 25px;
+    }    
+    .support-campaign .inner .search-form .field-name, .support-campaign .inner .search-form .form-control {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .support-campaign .inner .search-form .field-name{
+        margin-bottom: 10px;
+    }
+    .support-campaign .inner .search-form .form-control {
+        padding: 15px 25px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres img {
+        max-width: 80px;
+        margin-right: 20px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres .details h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres .details .Progress-bar {
+        height: 7px;
+        margin: 5px 0 5px 0;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres .details p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .btn-wrapper {
+        margin-top: 20px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .btn-wrapper .btn-donate, .stories .stories-container .story-card .artical-details .btn-wrapper .btn-donate {
+        font-weight: 400;
+        padding: 7px 15px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign{
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .support-campaign .head h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .support-campaign .inner .search-form {
+        max-width: 550px;
+        margin-bottom: 20px;
+    }
+    .support-campaign .inner .search-form .form-control {
+        padding: 10px 20px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign {
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres img {
+        max-width: 70px;
+        margin-right: 15px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres .details h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .support-campaign .head h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .support-campaign .inner .search-form .field-name, .support-campaign .inner .search-form .form-control {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .support-campaign .inner .search-form{
+        margin-bottom: 15px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign{
+        max-width: 100%;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres .details .Progress-bar{
+        max-width: 100%;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .target-progres .details p, .support-campaign .inner .campaigns-progress .campaign .target-progres .details h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .support-campaign .head h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .support-campaign .inner .campaigns-progress .campaign .btn-wrapper .btn-donate, .stories .stories-container .story-card .artical-details .btn-wrapper .btn-donate {
+        font-weight: 400;
+        padding: 6px 10px;
+    }
+}
+/*Campaigns styling Ends*/
+
+
+
+/*Campaigns styling Ends*/
+.rate-details-wrapper{
+    padding: 50px 0;
+    overflow: hidden;
+}
+.donation-ways.rate-details-wrapper .container .inner .way-of-donation{
+    border-top: none; 
+}
+.donation-ways.rate-details-wrapper .container .inner .way-of-donation:last-child{
+    border-bottom: none;
+}
+.donation-ways.rate-details-wrapper .container .inner .way-of-donation{
+    border-bottom: 1px solid #000; 
+}
+.rate-details-wrapper .inner .head{
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+.donation-ways.rate-details-wrapper .container .inner .way-of-donation .way-details{
+    margin: 0 auto;
+}
+
+.rate-details-wrapper .inner .way-of-donation {
+    padding: 62px 0;
+}
+.rate-details-wrapper .inner .way-of-donation .form-links{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+.rate-details-wrapper .inner .way-of-donation .form-links a{
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+    color: #104627;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37.8px; /* 157.5% */
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.60);
+}
+.rate-details-wrapper .inner .way-of-donation .form-links a img{
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 1715px){
+    
+}
+@media only screen and (max-width: 1600px){
+    .rate-details-wrapper .inner .way-of-donation .form-links a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+}
+@media only screen and (max-width: 1400px){
+    .rate-details-wrapper .inner .way-of-donation .form-links a img {
+        margin-right: 5px;
+    }
+    .rate-details-wrapper .inner .way-of-donation {
+        padding: 40px 0;
+    }
+    .donation-ways.rate-details-wrapper .inner .head h2 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .rate-details-wrapper .inner .way-of-donation .form-links{
+        margin-top: 40px;
+    }
+    
+}
+@media only screen and (max-width: 1200px){
+    .rate-details-wrapper .inner .way-of-donation .form-links {
+        margin-top: 25px;
+    }
+    .rate-details-wrapper .inner .way-of-donation {
+        padding: 30px 0;
+    }
+    .rate-details-wrapper .inner .way-of-donation .form-links a img {
+        max-width: 40px;
+    }
+    .rate-details-wrapper .inner .way-of-donation .form-links a {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+    .rate-details-wrapper .inner .way-of-donation .form-links{
+        gap: 10px;
+    }
+    .donation-ways.rate-details-wrapper .inner .head h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .rate-details-wrapper {
+        padding: 50px 0 30px 0;
+    }
+    .rate-details-wrapper .inner .head {
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .rate-details-wrapper .inner .way-of-donation .form-links {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .rate-details-wrapper .inner .way-of-donation .form-links a img {
+        max-width: 30px;
+    }
+    .donation-ways.rate-details-wrapper .inner .head h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .rate-details-wrapper .inner .head {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .rate-details-wrapper {
+        padding: 30px 0 30px 0;
+    }
+    .rate-details-wrapper .inner .head {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .donation-ways.rate-details-wrapper .container .inner .way-of-donation {
+        max-width: 100%;
+    }
+    .rate-details-wrapper .inner .way-of-donation {
+        padding: 20px 0;
+    }
+    .rate-details-wrapper .inner .way-of-donation .form-links{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .rate-details-wrapper .inner .way-of-donation .form-links a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .rate-details-wrapper .inner .way-of-donation .form-links {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+        width: 100%;
+    }
+}
+/*Campaigns styling Ends*/
+

@@ -1,0 +1,1937 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+body,h1,h2,h3,h4,h5,h6,a,img,p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    display: inline-block;
+}
+
+ .container{
+    max-width: 1842px;
+    width: 95%;
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+.btn-global{
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5.227px;
+    border: none;
+    background: #104627;
+    min-height: 47px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.091px;
+
+}
+.head h2{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+
+}
+.head p{
+color: #343832;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.8px;
+text-align: center;
+}
+/*header Customization*/
+.sticky {
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+  }
+  .top-bar .container{
+    width: 100%;
+  }
+  .top-bar .btn-topbar{
+    padding: 10px 25px;
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 5px;
+    }
+  .top-bar a{
+    color: #000;
+    font-size: 16px;
+    line-height: 22px;
+    }
+
+  header .navbar .navbar-brand{
+    padding: 0;
+    margin: 0;
+  }
+  header .navbar .navbar-brand .logo{
+    max-width: 360px;
+    width: 100%;
+    height: 95px;
+  }
+header{
+    transition: all 0.2s ease-in-out;
+    position: sticky;
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+header .navbar .navbar-nav a{
+    padding: 0;
+}
+
+header .navbar ul.navbar-nav {
+    align-items: center;
+}
+header .navbar .navbar-nav a{
+    transition: all 0.2s;
+    padding: 0 0;
+    color: #41463E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.231px;
+    letter-spacing: 0.692px;
+    text-decoration: none;
+}
+
+header .navbar .navbar-nav li{
+    position: relative;
+    padding: 0;
+    margin-left: 25px;
+}
+header .navbar .navbar-nav li::after{
+    opacity: 0;
+    content: '';
+    height: 4px;
+    width: 1%;
+    background-color: #104627;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+}  
+header .navbar .navbar-nav li:hover::after{
+    width: 100%;
+    opacity: 1;
+    left: 0;
+}
+header .navbar .navbar-nav .current-menu-item::after{
+    width: 50%;
+    opacity: 1;
+    left: 0;
+}
+header .navbar .navbar-nav .dropdown-menu li{
+    margin: 0;
+    text-wrap: nowrap;
+}
+header .navbar .navbar-nav .dropdown-menu{
+    padding: 5px 15px;
+    max-width: 240px;
+    flex-direction: column;
+}
+
+header .navbar .btn-header{
+    padding: 5px 29.1px;
+    font-size: 15.682px;
+    margin-left: 25px;
+}
+header .navbar .dropdown-menu{
+    display: none;
+}
+
+header .navbar .drop-menu::after{
+    content: '';
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+}
+header .navbar .dropdown-menu.visible{
+    display: flex;
+    transition: all 0.5s ease-in-out;
+}
+/*Hero Styling Starts*/
+/* .hero{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('../images/heroimage.png'), lightgray 50% / cover no-repeat;
+} */
+.hero{
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.hero .inner{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+z-index: 1;
+}
+.hero .welcome-note{
+    max-width: 886px;
+    width: 100%;
+    position: relative;
+    margin-top: 52px;
+}
+
+.hero .welcome-note::after{
+    content: '';
+    height: 3px;
+    max-width: 886px;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+}
+.hero .welcome-note::before{
+    content: '';
+    height: 3px;
+    max-width: 886px;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+.hero .welcome-note p{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    margin: 27px 0 25px 0;
+}
+.hero .hero-heading{
+    margin: 178px 0 277px 0;
+}
+.hero .hero-heading h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 97.2px;
+}
+
+.hero .hero-counter{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    max-width: 1428px;
+    width: 100%;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.35);
+    backdrop-filter: blur(12.5px);
+    margin-bottom: 150px;
+    padding: 38px 0;
+}
+.hero .hero-counter .hero-counter-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.hero .hero-counter .hero-counter-item{
+    width: 100%;
+    display: flex;
+    color: #FFF;
+    font-style: normal;
+    line-height: normal;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero-counter .hero-counter-item h3{
+font-size: 32px;
+font-weight: 600;
+margin: 0;
+}
+.hero .hero-counter .hero-counter-item p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.hero .hero-counter .counter-line{
+    position: relative;
+}
+.hero .hero-counter .counter-line::after{
+    content: '';
+    height: calc(100% + 30px);
+    width: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*Hero Styling Ends*/
+/*OurStory Styling Starts*/
+.ourstory{
+    padding: 117px 0 144px 0;
+}
+.ourstory {
+    overflow: hidden;
+}
+.ourstory .ourstory-image{
+    border: 5px solid #104627;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+.ourstory .ourstory-image img{
+    right: 26px;
+    bottom: -30px;
+    width: 100%;
+    position: relative;
+}
+
+.ourstory .row .ourstory-details{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    max-width: 84%;
+    margin-left: 2.84%;
+    margin-top: 30px;
+}
+
+.ourstory .row .ourstory-details h2{
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 10px;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.ourstory .row .ourstory-details .btn-ourstory{
+    padding: 17px 72px 17px 73px;
+    color: #FFF;
+    font-size: 15.682px;
+    font-weight: 500;
+    line-height: 25.091px;
+    margin-top: 72px;
+    border: none;
+}
+.ourstory .row .ourstory-details p{
+    color: #343832;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+}
+
+/*OurStory Styling Ends*/
+
+/*SignUp Styling Starts*/
+.signup{
+    position: relative;
+    padding: 90px 0 80px 0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.signup:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.signup .inner {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.signup .inner .head{
+    margin:  0 0 75px 0;
+}
+.signup .inner .head h2{
+    color: #FFF;
+    text-align: center;
+}
+
+.signup .inner .head p{
+color: #FFF;
+text-align: center;
+font-size: 28px;
+line-height: 36px;
+letter-spacing: 1px;
+}
+.signup .inner .form{
+    gap: 28px;
+    display: flex;
+    flex-direction: column;
+}
+.signup .inner .form{
+    max-width: 826px;
+    width: 100%;
+    margin: auto;
+}
+.signup .inner .form .form-control{
+    margin-top: 28px;
+}
+.signup .inner .form ::placeholder{
+    color: #ffffff;
+}
+.signup .inner .form .form-control{
+    padding: 19px 20px 20px 34px;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.31);
+    backdrop-filter: blur(3px);
+}
+
+.signup .inner .btn-signup-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signup .inner .btn-signup-wrapper .btn-signup{
+    padding: 0px 28.31px 0px 28.69px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 73px;
+}
+/*SignUp Styling Ends*/
+/*Footer Styling Starts*/
+footer {
+    padding: 50px 0 5px 0;
+}
+
+footer .footer-logos{
+    margin-top: 20px;
+}
+footer .footer-logos .mainlogo{
+    max-width: 290px;
+    height: 70px;
+    object-fit: contain;
+    width: 100%;
+}
+footer .inner .carf-details{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+footer .inner .carf-details p{
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 290px;
+    width: 100%;
+}
+
+footer .inner .btn-footer{
+    font-size: 15.682px;
+    font-weight: 600;
+    line-height: 25.091px;
+    padding: 17px 36px 17px 35px;
+    border-radius: 5.227px;
+}
+
+footer .inner .row .custom-wrapper-location ,.custom-wrapper-cris ,.custom-wrapper-cnt{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+footer .inner .row .custom-wrapper-location h5,.custom-wrapper-cris h5,.custom-wrapper-cnt h5{
+    color: #191A15;
+    font-size: 24.727px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+footer .inner .row .custom-wrapper-location a,.custom-wrapper-cris a,.custom-wrapper-cnt a{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175.5%;
+    text-decoration: none;
+}
+footer .inner .row .custom-wrapper-location span,.custom-wrapper-cris span,.custom-wrapper-cnt span{
+    text-decoration: underline;
+    word-break: break-all;
+}
+
+footer .inner .footer-copyright{
+    margin-top: 85px;
+}
+footer .inner .footer-copyright p{
+    color: #191A15;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.211px;
+}
+footer .inner .footer-copyright .d-flex a{
+    color: #191A15;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.211px;
+    text-decoration: none;
+    gap: 45px;
+}
+footer .inner .footer-copyright .d-flex {
+    gap: 45px;
+}
+
+.news-events .inner .head p{
+    display: none   ;
+}
+/*Footer Styling Ends*/
+
+@media only screen and (min-width: 1760px){
+    header .navbar .navbar-nav li{
+        margin-left: 60px;
+    }
+    header .navbar .navbar-brand .logo {
+        max-width: 330px;
+    }
+    header .navbar .btn-header{
+        margin-left: 50px;
+    }
+    .ourstory .ourstory-image {
+        max-width: 823px;
+    }
+    .ourstory .row .ourstory-details{
+        padding-left: 25px;
+    }
+    .ourstory{
+        padding-bottom: 200px;
+    }
+    .homelessCounter .inner .btn-Homeless{
+        margin-top: 100px !important;
+        min-width: 307px;
+        min-height: 79px;
+    }
+    .news-events .inner .head{
+        margin-bottom: 153px;
+    }
+}
+@media only screen and (max-width: 1600px){
+    header .navbar .navbar-brand .logo {
+        height: 85px;
+        max-width: 320px;
+    }
+    header .navbar .navbar-nav li{
+        margin-left: 25px;
+    }
+    header .navbar .navbar-nav a{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    header .navbar .navbar-nav .dropdown-menu a{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    header .navbar .btn-header{
+        margin-left: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        min-width: 190px; 
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .hero .welcome-note p{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .hero .hero-counter{
+        max-width: 1000px;
+    }
+    .hero .hero-counter .hero-counter-item h3{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .hero .hero-counter .hero-counter-item p{
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .hero .hero-heading h1 {
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .hero .hero-heading{
+        margin: 178px 0 170px 0;
+    }
+    .hero .welcome-note{
+        max-width: 686px;
+    }
+    .ourstory{
+        padding: 100px 0 100px 0;
+    }
+    .ourstory .row .ourstory-details{
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .ourstory .row .ourstory-details h2{
+        font-size: 46px;
+        line-height: 52px;
+    }
+    .ourstory .row .ourstory-details p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .ourstory .row .ourstory-details .btn-ourstory{
+        margin-top: 35px;
+    }
+    .signup .inner .form .form-control{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .signup .inner .head h2{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .signup .inner .head p{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .signup .inner .head {
+        margin: 0 0 50px 0;
+    }
+    .signup .inner .btn-signup-wrapper .btn-signup{
+        margin-top: 50px;
+        min-height: 5px;
+        line-height: 20px;
+        padding: 19.5px 59.46px;
+    }
+    .signup{
+        padding: 80px 0;
+    }
+    footer .inner .row .custom-wrapper-location, .custom-wrapper-cris, .custom-wrapper-cnt{
+        margin-left: 0;
+    }
+    footer .inner .row .custom-wrapper-location h5, .custom-wrapper-cris h5, .custom-wrapper-cnt h5{
+        margin-bottom: 25px;
+    }
+    footer .inner .row .custom-wrapper-location a, .custom-wrapper-cris a, .custom-wrapper-cnt a{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    footer .inner .footer-copyright .d-flex a{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    footer .inner .footer-copyright p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    footer .inner .footer-copyright{
+        margin-top: 70px;
+    }
+    footer .inner .btn-footer{
+    padding: 17px 35.18px;
+    font-weight: 500;
+    }  
+    footer .inner .carf-details{
+    gap: 3px;
+    }
+    footer .inner .footer-copyright .d-flex {
+        gap: 35px;
+    }
+    footer {
+        padding: 50px 0px 30px;
+    }
+}
+@media only screen and (max-width: 1366px){
+ header .navbar .navbar-brand .logo {
+    height: 85px;
+    max-width: 270px;
+    }
+    header .navbar .navbar-nav li {
+        margin-left: 28px;
+    }
+    header .navbar .btn-header {
+        margin-left: 20px;
+        min-width: 170px;
+    }
+    .signup .inner .form{
+        max-width: 800px;
+    }
+    footer .inner .row .custom-wrapper-location h5,footer .inner .row .custom-wrapper-cris h5,footer .inner .row .custom-wrapper-cnt h5{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    footer .inner .row .custom-wrapper-location a, .custom-wrapper-cris a, .custom-wrapper-cnt a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    header .container{
+        width: 100%;
+    }
+    header .navbar .navbar-brand .logo{
+        max-width: 250px;
+    }
+    header .navbar .btn-header {
+        min-width: 140px;
+        font-size: 10px;
+        line-height: 16px;
+        min-height: 5px;
+        padding: 10px 0px;
+    }
+    header .navbar .navbar-nav li{
+        margin-left: 10px;
+    }
+    .hero .hero-heading h1{
+        font-size: 48px;
+        line-height: 54px;
+    }
+    
+    .hero .hero-counter{
+        max-width: 800px;
+    }
+    .hero .hero-counter .hero-counter-item h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .hero .hero-counter .hero-counter-item p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .ourstory{
+        padding: 100px 0;
+    }
+    .ourstory .row .ourstory-details{
+        margin-top: 60px;
+        padding: 0 20px;
+    }
+    .ourstory .row .ourstory-details p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .ourstory .row .ourstory-details .btn-ourstory{
+        margin-top: 32px;
+    }
+   
+    .signup .inner .head h2{
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .signup .inner .head p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .signup .inner .head {
+        margin: 0 0 35px 0;
+    }
+    .signup .inner .form {
+        max-width: 750px;
+    }
+    .signup .inner .form .form-control{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    footer .inner .btn-footer {
+        padding: 12px 15px 12px 15px;
+    }
+    footer .inner .row .custom-wrapper-location h5, .custom-wrapper-cris h5, .custom-wrapper-cnt h5{
+        margin-bottom: 15px;
+    }
+    footer .inner .footer-copyright .d-flex{
+        margin-bottom: 0;
+    }
+    footer .inner .footer-copyright{
+        align-items: center;
+    }
+    footer .inner .row .custom-wrapper-location a, .custom-wrapper-cris a, .custom-wrapper-cnt a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .top-bar a{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .top-bar .centerOnMobile{
+        justify-content: center !important;
+    }
+    .top-bar .btn-topbar{
+        margin-top: 5px;
+    }
+    .top-bar .superNav{
+        padding-top: 12px !important;
+    }
+    header .navbar .navbar-brand .logo {
+        max-width: 300px;
+        height: 75px;
+    }
+    header .navbar .btn-header{
+        min-height: 30px;
+        margin-top: 15px;
+        margin-left: 0;
+        font-size: 16px;
+        padding: 5px 15px;
+        line-height: 22px;
+    }
+    header .navbar .btn-header-wrapper{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    header .navbar .navbar-nav li:not(:first-child){
+        margin-top : 10px;;
+    }
+    header .navbar ul.navbar-nav{
+        padding-top: 20px;
+        transition: all 0.3s cubic-bezier(0.42, 0, 0, 0.49) 0s;
+    }
+    header .navbar .navbar-nav .dropdown-menu{
+        position: absolute;
+        width: 200px;
+    }
+    header .navbar .navbar-nav a{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .hero .welcome-note{
+        max-width: 575px;
+    }
+    .hero .welcome-note p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .hero .hero-heading{
+        margin: 100px 0 100px 0;
+    }
+    .hero .hero-heading h1{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .hero .hero-counter{
+        max-width: 675px;
+        padding: 35px 0;
+        margin-bottom: 52px;
+    }
+    .hero .hero-counter .hero-counter-item h3{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .hero .hero-counter .hero-counter-item p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .ourstory{
+        padding: 70px 0;
+    }
+    .ourstory .row .ourstory-details{
+        margin-top: 60px;
+        text-align: center;
+        align-items: center;
+    }
+    .ourstory .row .ourstory-details h2{
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 10px;
+    }
+    .ourstory .row .ourstory-details p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .ourstory .row .ourstory-details .btn-ourstory{
+        margin-top: 20px;
+        padding: 15px 50px 15px 50px;
+    }
+    .signup .inner .head{
+        margin-bottom: 30px;
+    }
+    .signup .inner .head h2{
+        font-size: 32px;
+        line-height: 38px
+    }
+    .signup .inner .head p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .signup .inner .form {
+        max-width: 700px;
+    }
+    .signup .inner .form .form-control{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .signup .inner .btn-signup-wrapper .btn-signup{
+        padding: 17px 37px;
+        min-height: 45px;
+        line-height: 21px;
+    }
+    footer .footer-logos .mainlogo{
+        max-width: 265px;
+    }
+    footer .inner .btn-footer{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;  
+        min-height: 5px;
+        padding: 17.5px 22px; 
+    }
+    footer .inner .carf-details {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    footer .inner .footer-copyright .d-flex{
+        gap: 0;
+    }
+    
+
+}
+
+@media only screen and (max-width: 767px){
+    header .navbar .navbar-brand .logo {
+        height: 65px;
+    }
+    header .navbar .btn-header{
+        min-height: 30px;
+        margin-top: 15px;
+        margin-left: 0;
+        font-size: 16px;
+        padding: 5px 15px;
+        line-height: 22px;
+    }
+    .top-bar .contact-details{
+        flex-wrap: wrap;
+    }
+    header .navbar .navbar-nav li:not(:first-child){
+        margin-top : 10px;;
+    }
+    header .navbar .navbar-nav .dropdown-menu{
+    position: absolute;
+    width: 200px;
+    }
+    header .navbar .navbar-nav a{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .hero .welcome-note{
+        max-width: 100%;
+    }
+    .hero .welcome-note::before, .hero .welcome-note::after{
+        height: 2px;
+    }
+    .hero .welcome-note p{
+        font-size: 14px;
+        line-height: 20px;
+        margin: 15px 0 15px 0;
+    }
+    .hero .hero-heading h1{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .hero .hero-counter{
+        max-width: 100%;
+    }
+    .hero .hero-counter .hero-counter-item h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .hero .hero-counter .hero-counter-item p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .ourstory{
+        padding: 50px 0;
+    }
+    .ourstory .row .ourstory-details{
+        margin-top: 50px;
+        padding: 0 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .ourstory .row .ourstory-details h2{
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .ourstory .row .ourstory-details p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .ourstory .row .ourstory-details .btn-ourstory{
+        margin-top: 15px;
+        padding: 12px 32px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .signup{
+        padding: 80px 0;
+    }
+    .signup .inner .head h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .signup .inner .head {
+        margin-bottom: 25px;
+    }
+    .signup .inner .head p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .signup .inner .form{
+        max-width: 100%;
+    }
+    .signup .inner .form .form-control{
+        margin-top: 15px;
+    }
+    .signup .inner .form .form-control{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 15px 10px 25px;
+    }
+    .signup .inner .btn-signup-wrapper .btn-signup {
+        padding: 13.5px 10.2px;
+        min-height: 5px;
+        line-height: 20px;
+        font-size: 14px;
+        margin-top: 45px;
+    }
+    footer{
+        padding-bottom: 20px;
+    }
+    footer .inner .carf-details{
+        margin: 20px 0;
+    }
+    footer .inner .btn-footer {
+        padding: 13.5px 11px;
+        margin-bottom: 15px;
+    }
+    footer .footer-logos{
+        margin-top: 0;
+    }
+    footer .inner .row .custom-wrapper-location h5, .custom-wrapper-cris h5, .custom-wrapper-cnt h5{
+        margin-bottom: 10px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    footer .inner .footer-copyright .d-flex{
+        margin-bottom: 5px;
+        gap: 0;
+    }
+    footer .inner .footer-copyright{
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    header .navbar .navbar-brand .logo {
+        max-width: 210px;
+    }
+    header .navbar .container{
+        padding: 0 10px;
+    }
+    header .navbar .navbar-toggler-icon{
+        width: 20px;
+        height: 28px;
+    }
+    header .navbar .navbar-toggler{
+        padding: 2px 7px;
+    }
+    header .navbar .navbar-nav a{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    header .navbar .btn-header{
+        padding: 5px 10px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .hero .welcome-note {
+        margin-top: 45px;
+    }
+    .hero .welcome-note p {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 15px 0px;
+    }
+    .hero .hero-heading {
+        margin: 70px 0 80px 0;
+    }
+    .hero .hero-heading h1 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .hero .hero-counter{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+        padding: 20px 0;
+        margin-bottom: 45px;
+        max-width: 100%;
+    }
+    .hero .hero-counter .counter-line:nth-child(2):after{
+        display: none;
+        height: 80%;
+    }
+    .hero .hero-counter .counter-line:after{
+        height: 80%;
+    }
+    .hero .hero-counter .hero-counter-item p{
+        text-align: center;
+    }
+    .ourstory .ourstory-image img {
+        right: 18px;
+        bottom: -20px;
+    }
+    .ourstory .row .ourstory-details {
+        margin-top: 40px;
+        padding: 0;
+    }
+    .ourstory .row .ourstory-details h2 {
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 5px;
+    }
+    .signup {
+        padding: 50px 0;
+    }
+    .signup .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .signup .inner .head {
+        margin: 0 0 30px 0;
+    }
+    .signup .inner .form .form-control {
+        padding: 10px 15px 10px 20px;
+    }
+    .signup .inner .btn-signup-wrapper .btn-signup {
+        margin-top: 35px;
+    }
+    
+    footer .footer-logos .mainlogo{
+        max-width: 230px;
+    }
+    footer .inner .carf-details p{
+        max-width: 230px;
+    }
+    footer .inner .carf-details {
+        margin: 15px 0;
+        gap: 8px;
+    }
+    footer .inner .row .custom-wrapper-location h5, .custom-wrapper-cris h5, .custom-wrapper-cnt h5 {
+        margin-bottom: 8px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    footer .inner .footer-copyright p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+
+/*HomePage Stylings Starts*/
+/*Homeless Counter Styling Starts*/
+.homelessCounter{
+    background: #FAFAFA;
+    padding: 135px 0 196px 0;
+    overflow: hidden;
+}
+.homelessCounter .inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.homelessCounter .inner .head{
+    margin-bottom: 43px;
+}
+.homelessCounter .inner .head h2{
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.homelessCounter .inner .head p{
+letter-spacing: 1px;
+}
+.homelessCounter .inner .btn-Homeless{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 20px 40px 20px 40px;
+    margin-top: 50px;
+}
+.news-events{
+    background: #F5F5F5;
+    padding: 80px 0 0 0;
+    overflow: hidden;
+}
+.news-events .inner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.news-events .inner .head{
+    margin-bottom: 100px;
+}
+.news-events .inner .head h2{
+    font-size: 50px;
+    font-weight: 600; 
+}
+.news-events .inner .head p{
+    letter-spacing: 1px;
+}
+.news-events .inner .news-posts{
+    /* display: flex;
+    gap: 50px;
+    margin-top: 105px; */
+    width: 100%;
+}
+.news-events .news-posts .post-card img{
+    border-bottom: 8.882px solid #104627;
+    width: 100%;
+}
+.news-events .news-posts .post-card{
+    background: #FFFFFF;
+    margin: 0 10px;
+}
+.news-events .news-posts .post-card .details{
+    margin: auto;
+    padding: 32px 15px 48px 15px;
+}
+.news-events .news-posts .post-card .details h3 {
+    text-align: initial;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.news-events .news-posts .post-card .details p{
+    text-align: initial;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 31px;
+}
+
+.news-events .news-posts .post-card .details .wrap h4{
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.news-events .news-posts .post-card .details .wrap p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.news-events .news-posts .post-card .details .target-counter{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.news-events .news-posts .post-card .details .target-counter .raised p{
+    color: #DF6723;
+}
+.news-events .news-posts .post-card .details .target p{
+    color: #2A63AF;
+}
+.news-events .news-posts .post-card .details .raised{
+    width: 50%;
+    padding-right: 20%;
+    border-right: 1px solid #000000;
+}
+.news-events .news-posts .post-card .details .target{
+    width: 50%;
+    padding-left: 15%;
+}
+.news-events .news-posts .post-card .details .btn-donate {
+    padding: 10.455px 41.243px 10.455px 41.818px;
+    border-radius: 5.227px;
+}
+
+
+.news-events .inner .btn-viewall{
+    padding: 17px 86.05px;
+    border-radius: 5.227px;
+    margin-top: 76px;
+    font-size: 15.682px;
+    font-weight: 500;
+    line-height: 25.091px;
+}
+/*News & Events Styling Ends*/
+/*Testimonials Styling Starts*/
+
+.testimonial{
+    background: #F5F5F5;
+    padding-bottom:100px;
+    overflow: hidden;
+}
+.testimonial .inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial .inner .head{
+    margin: 180px 0 102px 0;
+    text-align: center;
+}
+.testimonial .inner .head h2{
+    font-weight: 600;
+    font-size: 50px;
+}
+.testimonial .slider{
+    margin: 0 auto 100px auto;
+    max-width: 100vw;
+    width: 100%;
+}
+.testimonial .testimonial-card .testimonial-wrapper{
+    background-color: #ffffff;
+    padding: 50px 30px 50px 30px;
+    max-width: 1585px;
+    width: 100%;
+    justify-content: space-between;
+}
+.testimonial .slick-slider .slick-track, .slick-slider .slick-list{
+    padding: 0 !important;
+}
+.testimonial .testimonial-card .testimonial-details h3{
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 65px;
+    position: relative;
+}
+.testimonial .slick-initialized .slick-slide {
+    display: flex !important;
+    justify-content: center;
+}
+.testimonial .testimonial-card .testimonial-details h3::after{
+    content: '';
+    height: 5px;
+    width: 100%;
+    background: #104627;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    max-width: 516.017px;
+}
+.testimonial .testimonial-card .testimonial-image img{
+    width: 100%;
+}
+.testimonial .testimonial-card .testimonial-details p{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 628px;
+    width: 100%;
+    margin-bottom: 84px;
+}
+.testimonial .testimonial-card .testimonial-details .btn-testimonial{
+    padding: 10.455px 41.243px 10.455px 41.818px;
+    font-size: 15.682px;
+    font-weight: 600;
+    line-height: 25.091px;
+}
+.testimonial .slick-list {
+    overflow: hidden;
+    will-change: transform;
+}
+.testimonial .slick-slide {
+    width: 100vw;
+}
+.testimonial .slider ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+}
+.testimonial .slider ul li + li{
+    margin-left: 8px;
+}
+.testimonial .slider ul button{
+    color: transparent;
+    border: none;
+    background: none;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-color: #104627;
+    border-radius: 50%;
+    opacity: 0.4;
+    transition: all 0.2s ease-in-out;
+}
+.testimonial .slider ul li.slick-active button{
+    opacity: 1;
+}
+.testimonial .slider ul button:hover{
+    opacity: 1;
+}
+.testimonial .inner .btn-viewall{
+    padding: 17px 56.33px;
+    font-size: 15.682px;
+    font-weight: 600;
+    line-height: 25.091px;
+}
+.testimonial .inner .testi-btn{
+    width: auto;
+}
+/*Testimonials Styling Ends*/
+
+@media only screen and (max-width: 1790px){
+    .testimonial .testimonial-card .testimonial-wrapper{
+        max-width: 85%;
+    }
+}
+@media only screen and (max-width: 1600px){
+    
+    .homelessCounter{
+        padding: 100px 0 100px 0;
+    }
+    .homelessCounter .inner .head h2{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .homelessCounter .inner .btn-Homeless{
+        font-weight: 400;
+        padding: 19.5px 31px;
+    }
+    .news-events{
+        padding-top: 50px;
+    }
+    .news-events .inner .head {
+        margin-bottom: 80px;
+    }
+    .news-events .inner .head h2{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .news-events .news-posts .post-card{
+        margin: 15px;
+    }
+    .news-events .inner .btn-viewall{
+        margin-top: 65px;
+        padding: 17px 85.542px;
+    }
+    .news-events .news-posts .post-card .details h3{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .testimonial .inner .head h2{
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .testimonial .inner .head{
+        margin: 100px 0 80px 0;
+    }
+    .testimonial .testimonial-card .testimonial-wrapper {
+        padding: 40px 25px 40px 25px;
+    }
+    .testimonial .testimonial-card .testimonial-image img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .testimonial .testimonial-card .testimonial-image{
+        height: 100%;
+    }
+    .testimonial .slide .testimonial-details p{
+        margin-bottom: 64px;
+    }
+    .testimonial .inner .btn-viewall{
+        padding: 17px 55.82px;
+    }
+    .testimonial .slider{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    
+    .homelessCounter .inner .head h2{
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .homelessCounter .inner .head p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .homelessCounter .homless-counter-item h3{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .homelessCounter .homless-counter-item p{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .homelessCounter .inner .btn-Homeless{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 18px 30px 18px 30px;
+    }
+    .news-events .inner .head h2{
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .news-events .inner .head p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .news-events .news-posts .post-card .details .raised{
+        padding-right: 10%;
+    }
+    .news-events .news-posts .post-card .details .target{
+        padding-left: 5%;
+    }
+    .news-events .inner .btn-viewall{
+        padding: 17px 70px;
+    }
+    .testimonial{
+        padding-bottom: 100px;
+    }
+    .testimonial .inner .head{
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+    .testimonial .inner .head h2{
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .testimonial .slider{
+        margin-bottom: 100px;
+    }
+    .testimonial .testimonial-card .testimonial-wrapper {
+        padding: 25px 25px 25px 25px;
+    }
+    
+    .testimonial .slide .testimonial-details p{
+        margin-bottom: 12px;
+    }
+    .testimonial .slide .testimonial-details h3{
+        margin-bottom: 35px;
+    }
+    .testimonial .slide .testimonial-details h3::after{
+        bottom: -15px;
+    }
+}
+@media only screen and (max-width: 991px){
+.homelessCounter .inner .head{
+    margin-bottom: 38px;
+}
+.homelessCounter .inner .head h2{
+    font-size: 36px;
+    line-height: 42px;
+}
+.homelessCounter .inner .head p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.homelessCounter .homless-counter-item h3{
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 20px;
+}
+.homelessCounter .homless-counter-item p{
+    font-size: 20px;
+    line-height: 26px;
+}
+.homelessCounter .homless-counter-item{
+    margin-top: 25px;
+}
+.homelessCounter .inner .btn-Homeless {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 13.5px 27px;
+}
+.news-events .inner .head h2{
+    font-size: 36px;
+    line-height: 42px;
+}
+.news-events .inner .head p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.news-events .news-posts .post-card{
+    margin: 20px 0 0 0;
+}
+.news-events .news-posts .post-card .details .raised{
+    padding-right: 10%;
+}
+.news-events .news-posts .post-card .details .target{
+    padding-left: 5%;
+}
+.news-events .news-posts .post-card .details .btn-donate{
+    padding:  15px 64.243px;
+}
+.news-events .inner .btn-viewall{
+    padding: 15px 63.2px;
+}
+.testimonial{
+    padding-bottom: 100px;
+}
+.testimonial .inner .head{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.testimonial .inner .head h2{
+    font-size: 36px;
+    line-height: 42px;
+}
+.testimonial .testimonial-card .testimonial-wrapper {
+    padding: 25px 25px 25px 25px;
+    max-width: 100%;
+}
+.testimonial .slide .testimonial-wrapper{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.testimonial .slide .testimonial-wrapper .testimonial-details {
+    text-align: center;
+    margin-top: 15px;
+}
+.testimonial .slide .testimonial-details p{
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+.testimonial .slider {
+    margin-bottom: 50px;
+}
+.testimonial .slider ul{
+    margin-top: 20px;
+}
+.testimonial .slider ul button{
+    width: 15px;
+    height: 15px;
+}
+.testimonial .slide .testimonial-details h3{
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+.testimonial .slide .testimonial-details h3::after{
+    bottom: -10px;
+    max-width: 100%;
+}
+.testimonial .slide .testimonial-details .btn-testimonial{
+    padding: 15px 33.7px;
+}
+.testimonial .inner .btn-viewall{
+    padding: 15px 33.4px;
+}
+}
+@media only screen and (max-width: 767px){
+    
+    .homelessCounter{
+        padding: 50px 0;
+    }
+    .homelessCounter .inner .head{
+        margin-bottom: 30px;
+    }
+    .homelessCounter .inner .head h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .homelessCounter .inner .head p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .homelessCounter .homless-counter-item h3{
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: 15px;
+    }
+    .homelessCounter .homless-counter-item p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .homelessCounter .homless-counter-item{
+        margin-top: 25px;
+    }
+    .homelessCounter .inner .btn-Homeless{
+        margin-top: 35px;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 13px 28px;
+    }
+    .news-events{
+        padding-top: 70px;
+    }
+    .news-events .inner .head{
+        margin-bottom: 50px;
+    }
+    .news-events .inner .head h2{
+        font-size: 32px;
+        line-height: 38px
+    }
+    .news-events .inner .head p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .news-events .news-posts {
+        justify-content: center;
+    }
+    .news-events .news-posts .post-card .details .raised{
+        padding-right: 10%;
+    }
+    .news-events .news-posts .post-card .details .target{
+        padding-left: 5%;
+    }
+    .news-events .inner .btn-viewall{
+        padding: 10px 40.2px;
+        margin-top: 40px;
+    }
+    
+    .testimonial{
+        padding-bottom: 70px;
+    }
+    .testimonial .inner .head{
+        margin-top: 80px;
+        margin-bottom: 70px;
+    }
+    .testimonial .inner .head h2{
+        font-size: 32px;
+        line-height: 38px
+    }
+    .testimonial .carousel-inner{
+        border-radius: 20px;
+    }
+    .testimonial .slide .testimonial-image{
+        margin-bottom: 15px;
+    }
+    .testimonial .slide .testimonial-details p{
+        margin-bottom: 12px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .testimonial .slide .testimonial-details h3{
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .testimonial .slide .testimonial-details h3::after{
+        bottom: -10px;
+    }
+    .testimonial .slide .testimonial-details .btn-testimonial {
+        padding: 9px 19px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }   
+    .testimonial .carousel-indicators [data-bs-target]{
+        height: 15px;
+        width: 15px;
+    } 
+    .news-events .news-posts .post-card .details .btn-donate {
+        padding: 12px 48px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .testimonial .inner .btn-viewall{
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 575px){
+    
+    .homelessCounter{
+        padding: 30px 0;
+    }
+    .homelessCounter .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .homelessCounter .inner .btn-Homeless {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 5px 15px 5px 15px;
+        margin-top: 10px;
+    }
+    .homelessCounter .inner .head p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .homelessCounter .homless-counter-item {
+        margin-top: 18px;
+    }
+    .homelessCounter .homless-counter-item h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 12px;
+    }
+    .homelessCounter .homless-counter-item p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .news-events {
+        padding-top: 50px;
+    }
+    .news-events .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .news-events .inner .head {
+        margin-bottom: 30px;
+    }
+    .news-events .news-posts .post-card .details {
+        padding: 20px 15px 30px 15px;
+    }
+    .news-events .news-posts .post-card .details h3 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+    .news-events .news-posts .post-card .details p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+    .news-events .news-posts .post-card .details .wrap h4{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .news-events .news-posts .post-card .details .wrap p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .news-events .news-posts .post-card .details .target-counter {
+        margin-bottom: 30px;
+    }
+    
+    .news-events .inner .btn-viewall {
+        margin-top: 30px;
+    }
+    .testimonial {
+        padding: 50px 0;
+    }
+    .testimonial .inner .head {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .testimonial .inner .head h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .testimonial .slider {
+        margin-bottom: 30px;
+    }
+    .testimonial .slide .testimonial-wrapper {
+        padding: 20px 20px;
+    }
+    .testimonial .slider ul button {
+        width: 12px;
+        height: 12px;
+    }
+    .testimonial .slide .testimonial-details h3 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 16px;
+    }
+    .testimonial .slide .testimonial-details h3::after{
+        height: 3px;
+        bottom: -8px;
+    }
+    .testimonial .slide .testimonial-details p {
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .testimonial .slide .testimonial-image {
+        margin-bottom: 5px;
+    }
+    .testimonial .carousel-indicators [data-bs-target] {
+        height: 12px;
+        width: 12px;
+    }
+}
+/*Home-Page Stylings Ends*/
